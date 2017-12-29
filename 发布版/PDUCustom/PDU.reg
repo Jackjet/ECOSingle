@@ -1,0 +1,259 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Assemblies\C:|Users|Administrator|Desktop|ECO|EcoSensors|bin|Debug|EcoSensors.exe]
+"EcoSensors,Version=\"1.3.126.2\",Culture=\"neutral\",FileVersion=\"65535.0.0.0\",ProcessorArchitecture=\"X86\""=hex(7):5b,\
+  00,2d,00,2a,00,28,00,38,00,2d,00,32,00,7b,00,59,00,3f,00,7b,00,52,00,7b,00,\
+  76,00,3f,00,4e,00,51,00,59,00,2b,00,48,00,3e,00,21,00,5e,00,4d,00,2c,00,3d,\
+  00,53,00,24,00,4f,00,76,00,39,00,76,00,3f,00,6c,00,5b,00,65,00,47,00,7e,00,\
+  6a,00,3f,00,44,00,00,00,00,00
+"PDFjet,Version=\"0.0.0.0\",Culture=\"neutral\",FileVersion=\"0.0.0.0\",ProcessorArchitecture=\"X86\""=hex(7):5b,\
+  00,2d,00,2a,00,28,00,38,00,2d,00,32,00,7b,00,59,00,3f,00,7b,00,52,00,7b,00,\
+  76,00,3f,00,4e,00,51,00,59,00,2b,00,48,00,3e,00,7b,00,26,00,56,00,40,00,21,\
+  00,6b,00,28,00,76,00,32,00,54,00,76,00,77,00,7b,00,21,00,5b,00,63,00,4d,00,\
+  26,00,67,00,43,00,00,00,00,00
+"System.Core,Version=\"4.0.0.0\",Culture=\"neutral\",FileVersion=\"4.0.30319.233\",ProcessorArchitecture=\"X86\",PublicKeyToken=\"B77A5C561934E089\""=hex(7):5b,\
+  00,2d,00,2a,00,28,00,38,00,2d,00,32,00,7b,00,59,00,3f,00,7b,00,52,00,7b,00,\
+  76,00,3f,00,4e,00,51,00,59,00,2b,00,48,00,3e,00,58,00,28,00,69,00,53,00,38,\
+  00,24,00,27,00,6c,00,4b,00,75,00,64,00,44,00,7d,00,7d,00,31,00,67,00,62,00,\
+  38,00,44,00,49,00,00,00,00,00
+"System.Numerics,Version=\"4.0.0.0\",Culture=\"neutral\",FileVersion=\"4.0.30319.1\",ProcessorArchitecture=\"X86\",PublicKeyToken=\"B77A5C561934E089\""=hex(7):5b,\
+  00,2d,00,2a,00,28,00,38,00,2d,00,32,00,7b,00,59,00,3f,00,7b,00,52,00,7b,00,\
+  76,00,3f,00,4e,00,51,00,59,00,2b,00,48,00,3e,00,7b,00,55,00,34,00,54,00,24,\
+  00,29,00,30,00,2a,00,33,00,4c,00,4d,00,7e,00,47,00,48,00,65,00,57,00,5a,00,\
+  75,00,65,00,46,00,00,00,00,00
+"System.Windows.Forms.DataVisualization,Version=\"4.0.0.0\",Culture=\"neutral\",FileVersion=\"4.0.30319.1\",ProcessorArchitecture=\"X86\",PublicKeyToken=\"31BF3856AD364E35\""=hex(7):5b,\
+  00,2d,00,2a,00,28,00,38,00,2d,00,32,00,7b,00,59,00,3f,00,7b,00,52,00,7b,00,\
+  76,00,3f,00,4e,00,51,00,59,00,2b,00,48,00,3e,00,55,00,53,00,36,00,4a,00,33,\
+  00,6d,00,55,00,44,00,69,00,63,00,64,00,2c,00,60,00,21,00,5f,00,3f,00,7b,00,\
+  4a,00,64,00,71,00,00,00,00,00
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Assemblies\C:|Users|Administrator|Desktop|ECO|EcoSensors|bin|Debug|EcoSensorsMonitor.exe]
+"EcoSensorsMonitor,Version=\"1.3.126.2\",Culture=\"neutral\",FileVersion=\"65535.0.0.0\",ProcessorArchitecture=\"X86\""=H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\EcoSensorsMonitor.exe
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ATEN]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ATEN\ecoSensors]
+"SerialNo"="9PH0G-4BWX0-6GNRS-HRV8K"
+"ServiceStatus"=dword:00000000
+"ServicePort"="64393"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\048AAB4085200907C0E7EDBBFFD329F5]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\System.Numerics.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0B150AC107B12D11A9DD0006794C4E25]
+"00000000000000000000000000000000"="C:\Windows\SysWOW64\msvcrt.dll"
+"9810A6E3636246946B19A6A443201E36"="C:\Windows\SysWOW64\msvcrt.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0B150AC107B12D11A9DD0006794C4E25\9810A6E3636246946B19A6A443201E36]
+"PatchGUID"=""
+"MediaCabinet"=""
+"File"="Global_VC_CRT_f0.51D569E0_8A28_11D2_B962_006097C4DE24"
+"ComponentVersion"="6.0.8797.0"
+"ProductVersion"="1.3.126"
+"PatchSize"="0"
+"PatchAttributes"="0"
+"PatchSequence"="0"
+"SharedComponent"="0"
+"IsFullFile"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0DBF74C0C79C8A44BBE5EC7F4CF4F0D4]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\zh-CHS\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\163EBC44DFCBC244E8D649CB3215DF75]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\EcoSensors.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2532F2DC8010B7A45A690D83D4280449]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\zh-CHT\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3D6758CCBC5245A49AB5DE7EC31FCC25]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\53F87119EFEDA0148BC971FA1A714BB7]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\fr\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\560E89A290561934DBC063591C1D29D8]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\5C4739AB27A5F2F4395562BBC6776D56]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\5EFCBA76F15E2094A9040C2834E35CC3]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\5F96F9FAAE4C8AC4CB3B417F55ECCD12]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\73F23D8F9CCCD654FA4E34EB3A25D8F3]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\799C46DCC4F44844EAAB237286E658AF]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\ru\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\7C9F5E0027E727988B397BE9F3D57465]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\PDFjet.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\95C20BDF8387B9C41B6115AAD638AA7B]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\pt\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\99E6AF0229F2D80479872F87D37A7083]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\9F324E93D90C5DD4497BE5413BF6ADD3]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\BB01014D08E98854A8DF2B0E79BF024E]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\C3FD3B30124B7E14EBDA6083A7B47D42]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\ja\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\C61E51861C5FD5D42AB01480BEFB161C]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\C792C48707E64FB40A2B3B817C283621]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CBF54DF3333C6CDE6D3B58B2C54C5B76]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\System.Core.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CECE5111FB280F84BB5CD228D1DEA38A]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\ko\"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D4C0370516E66BD43BADDA3BE0F2242A]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\EcoSensorsMonitor.exe"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D8224534F6FD6B4479C915CDA710CDDA]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D8E14C22FA62DD24D8E8B54C85A7EFDB]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\it\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\E0F62848E8B242E4F8512BE8D45FAAB6]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\sysdb.mdb"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\E311BF322CFC1344ABFE2F093A0C30DE]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\de\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\E508B534F8B82B94C9A44B03BF60121A]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F0B07DB2BEC85A84C8E1F9C6B199C810]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F4C6CEF2BC0F0D6BDC01A08AA4D0232E]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\System.Windows.Forms.DataVisualization.dll"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F82E63FD51FE23F40930A6F75D71E59E]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\es\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\FDC28B621087FA94491463E174C447EE]
+"9810A6E3636246946B19A6A443201E36"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\datadb\"
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\eco Sensors Monitor]
+"Type"=dword:00000010
+"Start"=dword:00000002
+"ErrorControl"=dword:00000001
+"ImagePath"=H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\EcoSensorsMonitor.exe
+"DisplayName"="eco Sensors Monitor"
+"ObjectName"="LocalSystem"
+"Description"="eco Sensors service for monitoring devices"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\Folders]
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"="1"
+"C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\"="1"
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\datadb\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\pt\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\ko\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\ru\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\zh-CHS\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\zh-CHT\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\ja\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\it\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\fr\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\es\"=""
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\de\"=""
+"C:\Windows\Installer\{3E6A0189-2636-4964-B691-6A4A3402E163}\"=""
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ATEN\eco Sensors\"=""
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ATEN\"=""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\9810A6E3636246946B19A6A443201E36]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\9810A6E3636246946B19A6A443201E36\Features]
+"ecoSensorsFiles"=",1ec1lxse9i(@zW,e^RU[9'{dtu8NAHVf0eH)+gHFH3CIy~YO?F`{$RVR3U7P*.`9??Dc?IOV`3B`rk[[t]{xr?fB=j}o0f@Y2L8!^M,=S$Ov9v?l[eG~j?D9XIaNG-!K@GUox*9VFv(E'lqAQy$}@nz^hbJSf0]p=E_9s~4*=1[rmo)z_s`]pPUzl?o]@AWrg_})W%d!ciQ(N8^M?Y{DpQlBr(_gy-$k3Fm$=@@qZ0%ozSyH6Sy&[7d(=_,l_xC'4j@EBJyjLYfx?n},=6xo)`WPt04$~[N39!TX!6?dNp.fVj2.t~_Q9e=?,hcDL(fp8Agjc-Yt?XR~Usva$]Bi^jM0EG!c?RCFe,u.B_u'WnMaxv8_@O{{JxJG*t-K~wZ-cMPh8N,0sNLFb!6)5C1mkVYE=DCU6qlE7Cr@)i^VQRtu8DgC?ag[MiO[Q{gpYH^NAP*nyP^4E!tA)zW.+&!w9VspYV!2}2udMT[6T'G$A8?QV)dpis7E1a*25A^E?0kKvJkLCR!IRRNI1NYr@uqQ`%L-}0gW-$ZRTFg,AdJ@rU'(G[J{&V@!k(v2Tvw{![cM&gCX(iS8$'lKudD}}1gb8DI{U4T$)0*3LM~GHeWZueFUS6J3mUDicd,`!_?{Jdq83&5,B^pf(V%eqFgkW_B"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\9810A6E3636246946B19A6A443201E36\InstallProperties]
+"RegOwner"="851470150@qq.com"
+"RegCompany"="BJ"
+"ProductID"="none"
+"LocalPackage"="C:\Windows\Installer\10bf1da.msi"
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.3.126.002"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20161013"
+"InstallLocation"="H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\"
+"InstallSource"="C:\Users\Administrator\AppData\Local\Downloaded Installations\{9FB4436F-2899-4741-BB04-DA25FB5FFB32}\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,33,00,45,00,36,00,41,00,30,00,31,00,38,00,\
+  39,00,2d,00,32,00,36,00,33,00,36,00,2d,00,34,00,39,00,36,00,34,00,2d,00,42,\
+  00,36,00,39,00,31,00,2d,00,36,00,41,00,34,00,41,00,33,00,34,00,30,00,32,00,\
+  45,00,31,00,36,00,33,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="ATEN"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00003c90
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,45,00,36,00,41,00,30,00,31,00,38,\
+  00,39,00,2d,00,32,00,36,00,33,00,36,00,2d,00,34,00,39,00,36,00,34,00,2d,00,\
+  42,00,36,00,39,00,31,00,2d,00,36,00,41,00,34,00,41,00,33,00,34,00,30,00,32,\
+  00,45,00,31,00,36,00,33,00,7d,00,00,00
+"URLInfoAbout"="www.aten.com.tw"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000003
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0103007e
+"Language"=dword:00000409
+"DisplayName"="eco Sensors"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\9810A6E3636246946B19A6A443201E36\Patches]
+"AllPatches"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\9810A6E3636246946B19A6A443201E36\Usage]
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\SharedDlls]
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\EcoSensors.exe"=dword:00000001
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\EcoSensorsMonitor.exe"=dword:00000001
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\sysdb.mdb"=dword:00000001
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\PDFjet.dll"=dword:00000001
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\System.Core.dll"=dword:00000001
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\System.Numerics.dll"=dword:00000001
+"H:\项目案例\sps备份\PDU智能电源管理\发布版\PDUCustom\System.Windows.Forms.DataVisualization.dll"=dword:00000001
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UpgradeCodes\15DBC024CD4C63E4A8BA35D6DF065205]
+"9810A6E3636246946B19A6A443201E36"=""

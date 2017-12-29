@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{E5AED7A1-C517-475A-A2AE-F947891861B2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>DBAccessAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Reference Include="CommonAPI" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\MySql.Data\Dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADODB\Connection.cs" />
+    <Compile Include="ADODB\Connection15.cs" />
+    <Compile Include="ADODB\ConnectionEvents.cs" />
+    <Compile Include="ADODB\ConnectionEvents_Event.cs" />
+    <Compile Include="ADODB\_ADO.cs" />
+    <Compile Include="ADODB\_Connection.cs" />
+    <Compile Include="ADOX\Catalog.cs" />
+    <Compile Include="ADOX\Column.cs" />
+    <Compile Include="ADOX\Columns.cs" />
+    <Compile Include="ADOX\DataTypeEnum.cs" />
+    <Compile Include="ADOX\Keys.cs" />
+    <Compile Include="ADOX\KeyTypeEnum.cs" />
+    <Compile Include="ADOX\Table.cs" />
+    <Compile Include="ADOX\Tables.cs" />
+    <Compile Include="ADOX\_Catalog.cs" />
+    <Compile Include="ADOX\_Collection.cs" />
+    <Compile Include="ADOX\_Column.cs" />
+    <Compile Include="ADOX\_Table.cs" />
+    <Compile Include="DBAccessAPI.encrypt\MD5.cs" />
+    <Compile Include="DBAccessAPI.user\UserInfo.cs" />
+    <Compile Include="DBAccessAPI.user\UserMaintain.cs" />
+    <Compile Include="DBAccessAPI\AccessDBUpdate.cs" />
+    <Compile Include="DBAccessAPI\AESEncryptionUtility.cs" />
+    <Compile Include="DBAccessAPI\Backuptask.cs" />
+    <Compile Include="DBAccessAPI\BackupTaskInfo.cs" />
+    <Compile Include="DBAccessAPI\BankDailyValue.cs" />
+    <Compile Include="DBAccessAPI\BankInfo.cs" />
+    <Compile Include="DBAccessAPI\BankPower.cs" />
+    <Compile Include="DBAccessAPI\BillReportInfo.cs" />
+    <Compile Include="DBAccessAPI\Branch.cs" />
+    <Compile Include="DBAccessAPI\CallBackEventHandler.cs" />
+    <Compile Include="DBAccessAPI\CommParaClass.cs" />
+    <Compile Include="DBAccessAPI\CompactAccessDB.cs" />
+    <Compile Include="DBAccessAPI\CompactDBThread.cs" />
+    <Compile Include="DBAccessAPI\CrossHourContext.cs" />
+    <Compile Include="DBAccessAPI\DataCrossHourProcessing.cs" />
+    <Compile Include="DBAccessAPI\DataWareHouse.cs" />
+    <Compile Include="DBAccessAPI\DBCache.cs" />
+    <Compile Include="DBAccessAPI\DBCacheEventProcess.cs" />
+    <Compile Include="DBAccessAPI\DBCacheStatus.cs" />
+    <Compile Include="DBAccessAPI\DBConn.cs" />
+    <Compile Include="DBAccessAPI\DBConnPool.cs" />
+    <Compile Include="DBAccessAPI\DBMaintain.cs" />
+    <Compile Include="DBAccessAPI\DBTools.cs" />
+    <Compile Include="DBAccessAPI\DBTrace4AP.cs" />
+    <Compile Include="DBAccessAPI\DBTrace4Service.cs" />
+    <Compile Include="DBAccessAPI\DBUrl.cs" />
+    <Compile Include="DBAccessAPI\DBUtil.cs" />
+    <Compile Include="DBAccessAPI\DBWorkThread.cs" />
+    <Compile Include="DBAccessAPI\DebugCenter4DB.cs" />
+    <Compile Include="DBAccessAPI\DeviceDailyValue.cs" />
+    <Compile Include="DBAccessAPI\DeviceInfo.cs" />
+    <Compile Include="DBAccessAPI\DeviceOperation.cs" />
+    <Compile Include="DBAccessAPI\DevicePower.cs" />
+    <Compile Include="DBAccessAPI\ExpiryCheck.cs" />
+    <Compile Include="DBAccessAPI\FileToDatabase.cs" />
+    <Compile Include="DBAccessAPI\FTP.cs" />
+    <Compile Include="DBAccessAPI\GatewayDataCell.cs" />
+    <Compile Include="DBAccessAPI\GateWayRefreshQueue.cs" />
+    <Compile Include="DBAccessAPI\GroupControlTask.cs" />
+    <Compile Include="DBAccessAPI\GroupInfo.cs" />
+    <Compile Include="DBAccessAPI\InSnergyGateway.cs" />
+    <Compile Include="DBAccessAPI\LineInfo.cs" />
+    <Compile Include="DBAccessAPI\LogDBStatus.cs" />
+    <Compile Include="DBAccessAPI\Logger.cs" />
+    <Compile Include="DBAccessAPI\LogInfo.cs" />
+    <Compile Include="DBAccessAPI\LogProcess.cs" />
+    <Compile Include="DBAccessAPI\LogSetting.cs" />
+    <Compile Include="DBAccessAPI\MinuteDataProcess.cs" />
+    <Compile Include="DBAccessAPI\MultiThreadQuery.cs" />
+    <Compile Include="DBAccessAPI\MultiThreadUpdate.cs" />
+    <Compile Include="DBAccessAPI\MySQLDatabaseException.cs" />
+    <Compile Include="DBAccessAPI\PDDataProcess.cs" />
+    <Compile Include="DBAccessAPI\PortDailyValue.cs" />
+    <Compile Include="DBAccessAPI\PortInfo.cs" />
+    <Compile Include="DBAccessAPI\PortPower.cs" />
+    <Compile Include="DBAccessAPI\RackEffect.cs" />
+    <Compile Include="DBAccessAPI\RackInfo.cs" />
+    <Compile Include="DBAccessAPI\ReportInfo.cs" />
+    <Compile Include="DBAccessAPI\ScheduleInfo.cs" />
+    <Compile Include="DBAccessAPI\SensorInfo.cs" />
+    <Compile Include="DBAccessAPI\SMTPSetting.cs" />
+    <Compile Include="DBAccessAPI\SpecialDay.cs" />
+    <Compile Include="DBAccessAPI\StorageContext.cs" />
+    <Compile Include="DBAccessAPI\SubMeter.cs" />
+    <Compile Include="DBAccessAPI\Sys_Para.cs" />
+    <Compile Include="DBAccessAPI\TaskInfo.cs" />
+    <Compile Include="DBAccessAPI\TaskStatus.cs" />
+    <Compile Include="DBAccessAPI\ThreadWithParameter.cs" />
+    <Compile Include="DBAccessAPI\UserWorkEventHandler.cs" />
+    <Compile Include="DBAccessAPI\WorkQueue.cs" />
+    <Compile Include="DBAccessAPI\ZipArchive.cs" />
+    <Compile Include="DBAccessAPI\ZipHandler.cs" />
+    <Compile Include="DBAccessAPI\ZoneInfo.cs" />
+    <Compile Include="JRO\IJetEngine.cs" />
+    <Compile Include="JRO\JetEngine.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\Database.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\DBEngine.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\Field.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\Fields.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\Recordset.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\_Collection.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\_DAO.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\_DBEngine.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\_DynaCollection.cs" />
+    <Compile Include="Microsoft.Office.Interop.Access.Dao\_Field.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

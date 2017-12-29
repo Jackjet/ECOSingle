@@ -1,0 +1,2113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <version value="V1.3.126-002"/>
+    <maxZoneNum value="32"/>
+    <maxRackNum value="2000"/>
+    <maxDevNum value="2000"/>
+    <wantISGsupport value="13122,120"/>
+    <wantBillProtsupport value="1"/>
+    <supportOEMDev value="1"/>
+<!--Shared threshold-->
+	<public>
+		<threshold>
+			<voltage type="all" range="90.0~260.0"/>
+			<power type="all" range="0~9999.9"/>
+			<powerDissipation type="all" range="0~99999"/>
+			<temperature type="all" range="-20.0~60.0"/>
+			<humidity type="all" range="15.0~95.0"/>
+			<pressure type="all" range="-250.0~250.0"/>
+		</threshold>
+	</public>
+
+<!--___________________________ PExx08X: 8-outlets smart PDU (CPU: PIC)___________________________-->
+<!--PE5x08X-->
+	<device name="PE5108A">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>1800</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5108B">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3120</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5108G">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~10.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~12.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5208A">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5208B">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5208G">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE7x08X-->
+	<device name="PE7108A">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>1800</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~8" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7108B">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3120</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~8" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7108G">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~10.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~12.0"/>
+			<current type="port" id="1~8" range="0~12.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7208A">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~8" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7208B">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~8" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7208G">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~8" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE6x08X-->
+	<device name="PE6108A">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>1800</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE6108B">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3120</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE6108G">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~10.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~12.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE6208A">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE6208B">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE6208G">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+<!--PE8x08X-->
+	<device name="PE8108A">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>1800</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~8" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE8108B">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3120</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~8" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE8108G">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<popReading>1@10@12</popReading>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~10.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~12.0"/>
+			<current type="port" id="1~8" range="0~12.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE8208A">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<popReading>1@20@24</popReading>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~8" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE8208B">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<popReading>1@20@24</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~8" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE8208BSKX">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<popReading>1@20@24</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~8" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+	<device name="PE8208G">
+		<outletCtrl>0xff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>8</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~8" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE8_v" ext=".bin"/> 
+	</device>
+
+<!--___________________________ PE5216X/PE5220sX/PE6216X: 16/20-outlets smart PDU (CPU: PIC)___________________________-->
+<!--PE5216X-->
+	<device name="PE5216A,PE5216LA">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6216_" ext=".bin"/> 
+	</device>
+
+	<device name="PE5216B,PE5216LB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6216_" ext=".bin"/> 
+	</device>
+
+	<device name="PE5216G,PE5216LG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6216_" ext=".bin"/> 
+	</device>
+
+<!--PE5220sX-->
+	<device name="PE5220sA,PE5220sLA">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>20</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5220sB,PE5220sLB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>20</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5220sG,PE5220sLG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>20</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE6216X-->
+	<device name="PE6216A,PE6216LA">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>2400</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6216_" ext=".bin"/> 
+	</device>
+
+	<device name="PE6216B,PE6216LB">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6216_" ext=".bin"/> 
+	</device>
+
+	<device name="PE6216G,PE6216LG">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+		<current type="dev" id="0" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6216_" ext=".bin"/> 
+	</device>
+
+<!--___________________________ PE5324X/PE5340sX/PE6324X: 24/40/16-outlets smart PDU (CPU: PIC)___________________________-->
+<!--PE5324X-->
+	<device name="PE5324B,PE5324LB,PE5324tB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6324_" ext=".bin"/> 
+	</device>
+
+	<device name="PE5324G,PE5324LG,PE5324tG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6324_" ext=".bin"/> 
+	</device>
+
+	<device name="PE5324J,PE5324LJ,PE5324tJ">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6324_" ext=".bin"/> 
+	</device>
+
+	<device name="PE5324kJA,PE5324LkJA,PE5324LJA">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE5312X-->
+	<device name="PE5312sGR,PE5312sLGR">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>12</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5312sGL,PE5312sLGL">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>12</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE5340sX-->
+	<device name="PE5340sB,PE5340sLB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>40</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5340sG,PE5340sLG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>40</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE5340sJ,PE5340sLJ">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>40</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE6324X-->
+	<device name="PE6324A,PE6324LA">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@3@1~16,17~24</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+		<current type="dev" id="0" range="0~36.0"/>
+		<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE6324JA,PE6324LJA">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@3@1~16,17~24</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+		<current type="dev" id="0" range="0~36.0"/>
+		<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE6324JA2,PE6324LJA2">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@3@1~16,17~24</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+		<current type="dev" id="0" range="0~36.0"/>
+		<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE6324B,PE6324LB">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@3@1~16,17~24</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+		<current type="dev" id="0" range="0~36.0"/>
+		<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6324_" ext=".bin"/> 
+	</device>
+
+	<device name="PE6324G,PE6324LG">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@3@1~16,17~24</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6324_" ext=".bin"/> 
+	</device>
+
+	<device name="PE6324J,PE6324LJ">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@3@1~16,17~24</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+		<current type="dev" id="0" range="0~36.0"/>
+		<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="PE6324_" ext=".bin"/> 
+	</device>
+
+<!--___________________________ PE7214X/PEx216X//PE8121X/PE9222X/PEx324X/PE7324kJA/PE7328X/PE9330X: 14/16/21/22/24/28/30-outlets smart PDU (CPU: PIC)___________________________-->
+
+<!--PE7214X-->
+	<device name="PE7214B,PE7214LB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>14</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~14" range="0~24.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7214J,PE7214LJ">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>14</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~14" range="0~24.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7214G,PE7214LG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>14</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~14" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE7216X/PE7324X/PE7328X-->
+	<device name="PE7216B,PE7216LB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~16" range="0~24.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7216G,PE7216LG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~16" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7324kJA,PE7324LkJA,PE7324LJA">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7324B,PE7324LB,PE7324tB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7324G,PE7324LG,PE7324tG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7324J,PE7324LJ,PE7324tJ">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7328B,PE7328LB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>28</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~14,15~28</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~28" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7328J,PE7328LJ">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>28</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~14,15~28</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~28" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE7328G,PE7328LG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>28</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~14,15~28</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~28" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE8121X-->
+	<device name="PE8121kJ,PE8121LkJ">
+		<outletCtrl>0x1fffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>21</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20@</popReading>
+		<capacity>
+			<devcapacity>3120</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~21" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE8216X/PE8316/PE8324X-->
+	<device name="PE8216B,PE8216LB">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@20@24</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~16" range="0~24.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8216G,PE8216LG">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~16" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8316A,PE8316LA">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~8,9~16</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8316B,PE8316LB">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~8,9~16</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8316G,PE8316LG">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~8,9~16</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8316J,PE8316LJ">
+		<outletCtrl>0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~8,9~16</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8324A,PE8324LA">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8324JA,PE8324LJA">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3600</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8324B,PE8324LB">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8324G,PE8324LG">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE8324J,PE8324LJ">
+		<outletCtrl>0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE9216X/PE9222X/PE9324X/PE9330X-->
+	<device name="PE9216B,PE9216LB">
+		<outletCtrl>0xff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@20@24</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~16" range="0~24.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9216G,PE9216LG">
+		<outletCtrl>0xff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~16" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9222B,PE9222LB">
+		<outletCtrl>0x3fc000</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>22</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@20@24</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~22" range="0~24.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9222J,PE9222LJ">
+		<outletCtrl>0x3fc000</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>22</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@20@24</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~22" range="0~24.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9222G,PE9222LG">
+		<outletCtrl>0x3fc000</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>22</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~22" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9324B,PE9324LB">
+		<outletCtrl>0xffff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9324G,PE9324LG">
+		<outletCtrl>0xffff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9324J,PE9324LJ">
+		<outletCtrl>0xffff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9330B,PE9330LB">
+		<outletCtrl>0x3fffc000</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>30</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~22,23~30</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~30" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9330J,PE9330LJ">
+		<outletCtrl>0x3fffc000</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>30</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~22,23~30</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~30" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+	<device name="PE9330G,PE9330LG">
+		<outletCtrl>0x3fffc000</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>30</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~22,23~30</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@20</popReading>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~30" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--___________________________ PE95242X/PE95342X: 3-phase smart PDU (CPU: PIC)___________________________-->
+<!--PE95242X-->
+	<device name="PE95242G">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>42</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>3</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>11520</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~48.0"/>
+			<ampcapacity type="bank" id="1~3" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~54.0"/>
+			<current type="bank" id="1~3" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE95342X-->
+	<device name="PE95342G">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>42</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>6</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>23040</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~96.0"/>
+			<ampcapacity type="bank" id="1~6" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~108.0"/>
+			<current type="bank" id="1~6" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--PE95324BD-->
+	<device name="PE95324BD">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>0</outletReading>
+		<outletNumber>42</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>3</bankNumber>
+		<sensorNumber>2</sensorNumber>
+		<capacity>
+			<devcapacity>12500</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~54.0"/>
+			<ampcapacity type="bank" id="1~3" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~64.0"/>
+			<current type="bank" id="1~3" range="0~18.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<fwupgrade validate="2" nms="" ext=""/> 
+	</device>
+
+<!--___________________________ PEx216rX/PEx324rX: 16/24-outlets smart PDU (CPU: ARM)___________________________-->
+<!--PE7216rX/PE7324rX-->
+	<device name="PE7216rB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~16" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE7216rG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~16" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE7324rB">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE7324rG">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE7324rJ">
+		<outletCtrl>0</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+<!--PE8216rX/PE8324rX-->
+	<device name="PE8216rB">
+		<outletCtrl>0xffff@0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@16</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~16" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE8216rG">
+		<outletCtrl>0xffff@0xffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@15@16</popReading>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~16" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE8324rB">
+		<outletCtrl>0xffffff@0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@12@16</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE8324rG">
+		<outletCtrl>0xffffff@0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@15@16</popReading>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE8324rJ">
+		<outletCtrl>0xffffff@0xffffff</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@12@16</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+<!--PE9216rX/PE9324rX-->
+	<device name="PE9216rB">
+		<outletCtrl>0xff00@0xff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@16@16</popReading>
+		<capacity>
+			<devcapacity>4160</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~20.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~24.0"/>
+			<current type="port" id="1~16" range="0~24.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE9216rG">
+		<outletCtrl>0xff00@0xff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>16</outletNumber>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@15@16</popReading>
+		<capacity>
+			<devcapacity>3840</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<current type="dev" id="0" range="0~18.0"/>
+			<current type="port" id="1~16" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE9324rB">
+		<outletCtrl>0xffff00@0xffff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@12@16</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE9324rG">
+		<outletCtrl>0xffff00@0xffff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@15@16</popReading>
+		<capacity>
+			<devcapacity>7680</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~32.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+	<device name="PE9324rJ">
+		<outletCtrl>0xffff00@0xffff00</outletCtrl>
+		<outletReading>1</outletReading>
+		<outletNumber>24</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2@0x3@1~16,17~24</bankNumber>
+		<bankOpt>0x3</bankOpt>
+		<sensorNumber>4</sensorNumber>
+		<popReading>1@12@16</popReading>
+		<capacity>
+			<devcapacity>6240</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~15.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~36.0"/>
+			<current type="port" id="1~24" range="0~18.0"/>
+			<current type="bank" id="1~2" range="0~18.0"/>
+		</threshold>
+		<fwupgrade validate="2" nms="" ext=".dat"/> 
+	</device>
+
+<!--___________________________ EC1000/EC2004: 4 bank energy box (CPU: PIC)___________________________-->
+<!--EC1000-->
+	<device name="EC1000">
+		<bankReading>1</bankReading>
+		<bankNumber>4</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<commonThresholdFlag>1</commonThresholdFlag>
+		<capacity>
+			<devcapacity>64V</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~128.0"/>
+			<ampcapacity type="bank" id="1~4" range="0~32.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="dev" flag="fd"/>
+			<UIeditflag type="dev" flag="51"/>
+			<readVflag type="bank" flag="fd"/>
+			<UIeditflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~128.0"/>
+			<current type="bank" id="1~4" range="0~32.0"/>
+		</threshold>
+		<fwupgrade validate="1" nms="EC1000_" ext=".bin" /> 
+	</device>
+
+<!--EC2004-->
+	<device name="EC2004">
+		<bankReading>1</bankReading>
+		<bankNumber>4</bankNumber>
+		<sensorNumber>4</sensorNumber>
+		<commonThresholdFlag>2</commonThresholdFlag>
+		<capacity>
+			<devcapacity>64V</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~128.0"/>
+			<ampcapacity type="bank" id="1~4" range="0~32.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="dev" flag="5d"/>
+			<UIeditflag type="dev" flag="5d"/>
+			<readVflag type="bank" flag="51"/>
+			<UIeditflag type="bank" flag="51"/>
+			<current type="dev" id="0" range="0~128.0"/>
+			<current type="bank" id="1~4" range="0~32.0"/>
+		</threshold>
+		<doorReading>1</doorReading>
+		<!--fwupgrade validate="2" nms="" ext="" /--> 
+	</device>
+
+<!--___________________________ Eaton PDU ___________________________-->
+<!--Genesis II-->
+	<device name="Genesis II">
+		<outletNumber>0</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>0</bankNumber>
+		<sensorNumber>0</sensorNumber>
+		<commonThresholdFlag>3</commonThresholdFlag>
+		<capacity>
+			<devcapacity>N/A</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~0.0"/>
+			<ampcapacity type="bank" id="1~8" range="0~0.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="dev" flag="ff"/>
+			<readVflag type="bank" flag="ff"/>
+			<current type="dev" id="0" range="0~30"/>
+			<current type="bank" id="1~8" range="0~20.0"/>
+		</threshold>
+	</device>
+
+	<device name="Monitored ePDU">
+		<outletNumber>0</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>0</bankNumber>
+		<sensorNumber>0</sensorNumber>
+		<commonThresholdFlag>3</commonThresholdFlag>
+		<capacity>
+			<devcapacity>N/A</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~0.0"/>
+			<ampcapacity type="bank" id="1~8" range="0~0.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="dev" flag="ff"/>
+			<readVflag type="bank" flag="ff"/>
+			<current type="dev" id="0" range="0~30"/>
+			<current type="bank" id="1~8" range="0~20.0"/>
+		</threshold>
+	</device>
+
+	<device name="Eaton ePDU">
+		<outletReading>1</outletReading>
+		<outletNumber>0</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>0</bankNumber>
+		<sensorNumber>0</sensorNumber>
+		<commonThresholdFlag>100</commonThresholdFlag>
+		<capacity>
+			<devcapacity>N/A</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~0.0"/>
+			<ampcapacity type="bank" id="1~8" range="0~0.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="dev" flag="f1"/>
+			<readVflag type="bank" flag="fd"/>
+			<readVflag type="port" flag="f1"/>
+			<current type="dev" id="0" range="0~40"/>
+			<current type="bank" id="1~8" range="0~40.0"/>
+			<current type="port" id="1~24" range="0~16.0"/>
+		</threshold>
+	</device>
+
+<!--___________________________ APC PDU ___________________________-->
+<!--AP8841,AP8941-->
+	<device name="AP8841">
+		<outletNumber>0</outletNumber>
+		<bankReading>1</bankReading>
+		<bankNumber>2</bankNumber>
+		<sensorNumber>1</sensorNumber>
+		<commonThresholdFlag>200</commonThresholdFlag>
+		<capacity>
+			<devcapacity>6000</devcapacity>
+			<ampcapacity type="dev" id="0" range="0~30.0"/>
+			<ampcapacity type="bank" id="1~2" range="0~16.0"/>
+		</capacity>
+		<threshold>
+			<readVflag type="dev" flag="cc"/>
+			<UIeditflag type="dev" flag="33cc"/>
+			<readVflag type="bank" flag="fc"/>
+			<UIeditflag type="bank" flag="03fc"/>
+			<current type="dev" id="0" range="0~30"/>
+			<current type="bank" id="1~2" range="0~22"/>
+			<power type="dev" id="0" range="0~7300"/>					<!-- ??? -->
+			<readVflag type="ss" flag="39"/>
+			<UIeditflag type="ss" flag="0f39"/>
+			<temperature type="ss" id="1~4" range="0.0~60.0"/>
+			<humidity type="ss" id="1~4" range="0.0~99.0"/>
+		</threshold>
+	</device>
+
+</root>

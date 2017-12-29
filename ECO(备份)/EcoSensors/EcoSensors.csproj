@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1DBF5E7A-58ED-469F-8F0A-988D6E442AF4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>EcoSensors</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\Dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SnmpSharpNet">
+      <HintPath>..\Dll\SnmpSharpNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="DBAccessAPI">
+      <HintPath>..\Dll\DBAccessAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Data" />
+    <Reference Include="PDFjet">
+      <HintPath>..\Dll\PDFjet.dll</HintPath>
+    </Reference>
+    <Reference Include="DevAccessAPI">
+      <HintPath>..\Dll\DevAccessAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonAPI">
+      <HintPath>..\Dll\CommonAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Dispatcher">
+      <HintPath>..\Dll\Dispatcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="EventLogAPI">
+      <HintPath>..\Dll\EventLogAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EcoSensors.Common.component\CalendarEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Common.component\DataGridViewCalendarCell.cs" />
+    <Compile Include="EcoSensors.Common.component\DataGridViewCalendarColumn.cs" />
+    <Compile Include="EcoSensors.Common.component\DataGridViewDisableButtonCell.cs" />
+    <Compile Include="EcoSensors.Common.component\DataGridViewDisableButtonColumn.cs" />
+    <Compile Include="EcoSensors.Common.component\DataGridViewDisableCheckBoxCell.cs" />
+    <Compile Include="EcoSensors.Common.component\DataGridViewDisableCheckBoxColumn.cs" />
+    <Compile Include="EcoSensors.Common.component\DataGridViewSpanCell.cs" />
+    <Compile Include="EcoSensors.Common.component\DataGridViewSpanColumn.cs" />
+    <Compile Include="EcoSensors.Common.component\GripBounds.cs" />
+    <Compile Include="EcoSensors.Common.component\NativeMethods.cs" />
+    <Compile Include="EcoSensors.Common.component\Popup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Common.component\PopupAnimations.cs" />
+    <Compile Include="EcoSensors.Common.DevAccess\AppDevAccess.cs" />
+    <Compile Include="EcoSensors.Common.DevAccess\AppSnmpExecutors.cs" />
+    <Compile Include="EcoSensors.Common.Disk\DiskInfo.cs" />
+    <Compile Include="EcoSensors.Common.Thread\AppInterProcess.cs" />
+    <Compile Include="EcoSensors.Common.Thread\ControlAccess.cs" />
+    <Compile Include="EcoSensors.Common\Combobox_item.cs" />
+    <Compile Include="EcoSensors.Common\commUtil.cs" />
+    <Compile Include="EcoSensors.Common\DBProcessUtil.cs" />
+    <Compile Include="EcoSensors.Common\devcfgUtil.cs" />
+    <Compile Include="EcoSensors.Common\EcoMessageBox.cs" />
+    <Compile Include="EcoSensors.Common\Ecovalidate.cs" />
+    <Compile Include="EcoSensors.Common\pdfUtil.cs" />
+    <Compile Include="EcoSensors.Common\progressCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Common\progressPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Common\ThresholdUtil.cs" />
+    <Compile Include="EcoSensors.Common\TopMostMessageBox.cs" />
+    <Compile Include="EcoSensors.DevManDCFloorGrid\DevManDCFloorGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDCFloorGrid\DevManFloorGrids.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropBank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropDev.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropDev1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropDev2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropOutlet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropPOP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice._Dev\PropSensor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice\AddDevDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice\AssignNameParaDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice\commDev.cs" />
+    <Compile Include="EcoSensors.DevManDevice\DevManAllDev.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice\DevManDevice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice\DevMan_DevTB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManDevice\DiscoverThread.cs" />
+    <Compile Include="EcoSensors.DevManDevice\ScanDevDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.DataGroup\DataGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.DataGroup\DataGroupDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.DataGroup\DataGroupModifyDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.OtherDevices\OtherDeviceAddDevDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.OtherDevices\OtherDeviceISGBrPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.OtherDevices\OtherDeviceISGSubMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.OtherDevices\OtherDevices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage.OtherDevices\OtherDevicesAllDev.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManPage\DevManPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManRack\ManRack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManRack\rackDeviceList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManRack\rackDeviceListUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManRack\RackInfoDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManZone\ManZone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.DevManZone\ZoneInfoDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.AnalysisThermal\ThermAnalysis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.AnalysisThermal\ThermGenRptPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.AnalysisThermal\ThermGenRptParaGpAddDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.AnalysisThermal\ThermGenRptShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.AnalysisThermal\ThermRptManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.Analysis\EGenRptPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.Analysis\EGenRptParaClass.cs" />
+    <Compile Include="EcoSensors.EnegManPage.Analysis\EGenRptParaGpAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.Analysis\EGenRptSetPUE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.Analysis\EGenRptShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.Analysis\EnegAnalysis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.Analysis\ERptManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DashBoard.meter\meter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DashBoardUser\DashBoardUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DashBoardUser\TitleInfoUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DashBoard\boardDataUtil.cs" />
+    <Compile Include="EcoSensors.EnegManPage.DashBoard\DashBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DashBoard\RackStatusAll.cs" />
+    <Compile Include="EcoSensors.EnegManPage.DashBoard\RackStatusOne.cs" />
+    <Compile Include="EcoSensors.EnegManPage.DashBoard\TitleInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DataGPOP\DataGpOPAll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DataGPOP\DataGpOPDev.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.DataGPOP\DataGpOPGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.PowerOp\EPowerOp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage.PowerOp\EPowerOpDev.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.EnegManPage\EnegManPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Login\mysqlsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Login\registrySettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Login\restoredb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.LogOptions\LogEvents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.LogOptions\LogOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.LogPage\LogPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.LogSysLog\LogSysLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.MainForm\IdleTmDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.MainForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Monitor\monitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Monitor\MonMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.Properties\Resources.cs" />
+    <Compile Include="EcoSensors.Properties\Settings.cs" />
+    <Compile Include="EcoSensors.Service\ServiceDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManDB\dbchangeDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManDB\dbchangeoptDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManDB\DbExportHanler.cs" />
+    <Compile Include="EcoSensors.SysManDB\DbImportHandler.cs" />
+    <Compile Include="EcoSensors.SysManDB\SysManDB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManDB\SysManDBCap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManDB\SysManDBMaint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManDB\SysManDBSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManMaint\FirmwareUpgrade.cs" />
+    <Compile Include="EcoSensors.SysManMaint\SysManMaint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManMaint\UpgradeStatus.cs" />
+    <Compile Include="EcoSensors.SysManPage.Billing\Billing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Billing\BillingRptMng.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Billing\BillingRptPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Billing\BillingRptParaClass.cs" />
+    <Compile Include="EcoSensors.SysManPage.Billing\BillingRptParaGpAddDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Billing\BillingRptShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Billing\BillingSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\FindDevDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\SysManNTP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\SysManSMTP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\SysManSNMP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\SysOthers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\SysPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\SysSession.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.settings\SysSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Tasks\CfgBackupTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Tasks\CfgBackupTaskDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Tasks\GpPowerTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Tasks\GpPowerTaskDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Tasks\GpPower_Week.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage.Tasks\tasks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.SysManPage\SysManPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.UserManAllUsers\UserManAllUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.UserManPage\UserManAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.UserManPage\UserManPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.UserManUser\UserManUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EcoSensors.UserManUser\UserManUserSetDevDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors._Lang\Constants.cs" />
+    <Compile Include="EcoSensors._Lang\EcoLanguage.cs" />
+    <Compile Include="EcoSensors._Lang\LangRes.cs" />
+    <Compile Include="EcoSensors\Dummy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcoSensors\EcoGlobalVar.cs" />
+    <Compile Include="EcoSensors\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EcoSensors.Common\progressCtrl.resources" />
+    <EmbeddedResource Include="EcoSensors.Common\progressPopup.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDCFloorGrid\DevManDCFloorGrid.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDCFloorGrid\DevManFloorGrids.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropBank.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropDev.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropDev1.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropDev2.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropLine.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropOutlet.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropPOP.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice._Dev\PropSensor.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice\AddDevDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice\AssignNameParaDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice\DevManAllDev.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice\DevManDevice.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice\DevMan_DevTB.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManDevice\ScanDevDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.DataGroup\DataGroup.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.DataGroup\DataGroupDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.DataGroup\DataGroupModifyDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.OtherDevices\OtherDeviceAddDevDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.OtherDevices\OtherDeviceISGBrPanel.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.OtherDevices\OtherDeviceISGSubMeter.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.OtherDevices\OtherDevices.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage.OtherDevices\OtherDevicesAllDev.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManPage\DevManPage.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManRack\ManRack.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManRack\rackDeviceList.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManRack\rackDeviceListUC.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManRack\RackInfoDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManZone\ManZone.resources" />
+    <EmbeddedResource Include="EcoSensors.DevManZone\ZoneInfoDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.AnalysisThermal\ThermAnalysis.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.AnalysisThermal\ThermGenRptPara.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.AnalysisThermal\ThermGenRptParaGpAddDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.AnalysisThermal\ThermGenRptShow.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.AnalysisThermal\ThermRptManage.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.Analysis\EGenRptPara.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.Analysis\EGenRptParaGpAdd.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.Analysis\EGenRptSetPUE.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.Analysis\EGenRptShow.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.Analysis\EnegAnalysis.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.Analysis\ERptManage.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DashBoard.meter\meter.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DashBoardUser\DashBoardUser.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DashBoardUser\TitleInfoUser.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DashBoard\DashBoard.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DashBoard\TitleInfo.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DataGPOP\DataGpOPAll.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DataGPOP\DataGpOPDev.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.DataGPOP\DataGpOPGroup.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.PowerOp\EPowerOp.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage.PowerOp\EPowerOpDev.resources" />
+    <EmbeddedResource Include="EcoSensors.EnegManPage\EnegManPage.resources" />
+    <EmbeddedResource Include="EcoSensors.Login\Login.resources" />
+    <EmbeddedResource Include="EcoSensors.Login\mysqlsetting.resources" />
+    <EmbeddedResource Include="EcoSensors.Login\registrySettings.resources" />
+    <EmbeddedResource Include="EcoSensors.Login\restoredb.resources" />
+    <EmbeddedResource Include="EcoSensors.LogOptions\LogEvents.resources" />
+    <EmbeddedResource Include="EcoSensors.LogOptions\LogOptions.resources" />
+    <EmbeddedResource Include="EcoSensors.LogPage\LogPage.resources" />
+    <EmbeddedResource Include="EcoSensors.LogSysLog\LogSysLog.resources" />
+    <EmbeddedResource Include="EcoSensors.MainForm\IdleTmDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.MainForm\MainForm.resources" />
+    <EmbeddedResource Include="EcoSensors.Monitor\monitor.resources" />
+    <EmbeddedResource Include="EcoSensors.Monitor\MonMeter.resources" />
+    <EmbeddedResource Include="EcoSensors.Properties\Resources.resources" />
+    <EmbeddedResource Include="EcoSensors.Service\ServiceDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManDB\dbchangeDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManDB\dbchangeoptDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManDB\SysManDB.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManDB\SysManDBCap.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManDB\SysManDBMaint.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManDB\SysManDBSetting.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManMaint\SysManMaint.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Billing\Billing.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Billing\BillingRptMng.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Billing\BillingRptPara.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Billing\BillingRptParaGpAddDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Billing\BillingRptShow.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Billing\BillingSettings.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\FindDevDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\SysManNTP.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\SysManSMTP.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\SysManSNMP.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\SysOthers.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\SysPara.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\SysSession.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.settings\SysSettings.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Tasks\CfgBackupTask.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Tasks\CfgBackupTaskDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Tasks\GpPowerTask.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Tasks\GpPowerTaskDlg.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Tasks\GpPower_Week.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage.Tasks\tasks.resources" />
+    <EmbeddedResource Include="EcoSensors.SysManPage\SysManPage.resources" />
+    <EmbeddedResource Include="EcoSensors.UserManAllUsers\UserManAllUsers.resources" />
+    <EmbeddedResource Include="EcoSensors.UserManPage\UserManAddUser.resources" />
+    <EmbeddedResource Include="EcoSensors.UserManPage\UserManPage.resources" />
+    <EmbeddedResource Include="EcoSensors.UserManUser\UserManUser.resources" />
+    <EmbeddedResource Include="EcoSensors.UserManUser\UserManUserSetDevDlg.resources" />
+    <EmbeddedResource Include="EcoSensors._Lang\LangRes.resources" />
+    <EmbeddedResource Include="EcoSensors\Dummy.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{DB15C83E-8BA1-4D89-B87B-978E55ED73FD}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PDFjet</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PDFjet.NET\A3.cs" />
+    <Compile Include="PDFjet.NET\A4.cs" />
+    <Compile Include="PDFjet.NET\A5.cs" />
+    <Compile Include="PDFjet.NET\AbstractCell.cs" />
+    <Compile Include="PDFjet.NET\Align.cs" />
+    <Compile Include="PDFjet.NET\AndroidFontsCopyright.cs" />
+    <Compile Include="PDFjet.NET\Annotation.cs" />
+    <Compile Include="PDFjet.NET\B5.cs" />
+    <Compile Include="PDFjet.NET\Bidi.cs" />
+    <Compile Include="PDFjet.NET\BitBuffer.cs" />
+    <Compile Include="PDFjet.NET\BMPImage.cs" />
+    <Compile Include="PDFjet.NET\Border.cs" />
+    <Compile Include="PDFjet.NET\Box.cs" />
+    <Compile Include="PDFjet.NET\Cap.cs" />
+    <Compile Include="PDFjet.NET\Cell.cs" />
+    <Compile Include="PDFjet.NET\CheckBox.cs" />
+    <Compile Include="PDFjet.NET\Chunk.cs" />
+    <Compile Include="PDFjet.NET\CodePage.cs" />
+    <Compile Include="PDFjet.NET\Color.cs" />
+    <Compile Include="PDFjet.NET\Compliance.cs" />
+    <Compile Include="PDFjet.NET\CompositeTextLine.cs" />
+    <Compile Include="PDFjet.NET\Compressor.cs" />
+    <Compile Include="PDFjet.NET\CoreFont.cs" />
+    <Compile Include="PDFjet.NET\Courier.cs" />
+    <Compile Include="PDFjet.NET\Courier_Bold.cs" />
+    <Compile Include="PDFjet.NET\Courier_BoldOblique.cs" />
+    <Compile Include="PDFjet.NET\Courier_Oblique.cs" />
+    <Compile Include="PDFjet.NET\CP1250.cs" />
+    <Compile Include="PDFjet.NET\CP1251.cs" />
+    <Compile Include="PDFjet.NET\CP1252.cs" />
+    <Compile Include="PDFjet.NET\CP1253.cs" />
+    <Compile Include="PDFjet.NET\CP1254.cs" />
+    <Compile Include="PDFjet.NET\CP1257.cs" />
+    <Compile Include="PDFjet.NET\CRC32.cs" />
+    <Compile Include="PDFjet.NET\Decompressor.cs" />
+    <Compile Include="PDFjet.NET\DeflaterOutputStream.cs" />
+    <Compile Include="PDFjet.NET\DejaVuLGCSerif.cs" />
+    <Compile Include="PDFjet.NET\Destination.cs" />
+    <Compile Include="PDFjet.NET\Dimension.cs" />
+    <Compile Include="PDFjet.NET\Effect.cs" />
+    <Compile Include="PDFjet.NET\Embed.cs" />
+    <Compile Include="PDFjet.NET\ErrorCorrectLevel.cs" />
+    <Compile Include="PDFjet.NET\Executive.cs" />
+    <Compile Include="PDFjet.NET\FastFont.cs" />
+    <Compile Include="PDFjet.NET\FlexTable.cs" />
+    <Compile Include="PDFjet.NET\Font.cs" />
+    <Compile Include="PDFjet.NET\FontTable.cs" />
+    <Compile Include="PDFjet.NET\Glyph.cs" />
+    <Compile Include="PDFjet.NET\Helvetica.cs" />
+    <Compile Include="PDFjet.NET\Helvetica_Bold.cs" />
+    <Compile Include="PDFjet.NET\Helvetica_BoldOblique.cs" />
+    <Compile Include="PDFjet.NET\Helvetica_Oblique.cs" />
+    <Compile Include="PDFjet.NET\ICCBlackScaled.cs" />
+    <Compile Include="PDFjet.NET\IDrawable.cs" />
+    <Compile Include="PDFjet.NET\Image.cs" />
+    <Compile Include="PDFjet.NET\ImageCell.cs" />
+    <Compile Include="PDFjet.NET\ImageType.cs" />
+    <Compile Include="PDFjet.NET\Join.cs" />
+    <Compile Include="PDFjet.NET\JPGImage.cs" />
+    <Compile Include="PDFjet.NET\Legal.cs" />
+    <Compile Include="PDFjet.NET\Letter.cs" />
+    <Compile Include="PDFjet.NET\Line.cs" />
+    <Compile Include="PDFjet.NET\MaskPattern.cs" />
+    <Compile Include="PDFjet.NET\NumberFormat.cs" />
+    <Compile Include="PDFjet.NET\Operation.cs" />
+    <Compile Include="PDFjet.NET\OptionalContentGroup.cs" />
+    <Compile Include="PDFjet.NET\Page.cs" />
+    <Compile Include="PDFjet.NET\Path.cs" />
+    <Compile Include="PDFjet.NET\PDF.cs" />
+    <Compile Include="PDFjet.NET\PDFImage.cs" />
+    <Compile Include="PDFjet.NET\PDFobj.cs" />
+    <Compile Include="PDFjet.NET\PNGImage.cs" />
+    <Compile Include="PDFjet.NET\Point.cs" />
+    <Compile Include="PDFjet.NET\Polynomial.cs" />
+    <Compile Include="PDFjet.NET\QRCode.cs" />
+    <Compile Include="PDFjet.NET\QRMath.cs" />
+    <Compile Include="PDFjet.NET\QRUtil.cs" />
+    <Compile Include="PDFjet.NET\RGB.cs" />
+    <Compile Include="PDFjet.NET\Round.cs" />
+    <Compile Include="PDFjet.NET\RSBlock.cs" />
+    <Compile Include="PDFjet.NET\Segment.cs" />
+    <Compile Include="PDFjet.NET\SimpleDateFormat.cs" />
+    <Compile Include="PDFjet.NET\Standard.cs" />
+    <Compile Include="PDFjet.NET\StandardFont.cs" />
+    <Compile Include="PDFjet.NET\State.cs" />
+    <Compile Include="PDFjet.NET\Symbol.cs" />
+    <Compile Include="PDFjet.NET\Table.cs" />
+    <Compile Include="PDFjet.NET\Tabloid.cs" />
+    <Compile Include="PDFjet.NET\TextAlign.cs" />
+    <Compile Include="PDFjet.NET\TextBox.cs" />
+    <Compile Include="PDFjet.NET\TextCell.cs" />
+    <Compile Include="PDFjet.NET\TextLine.cs" />
+    <Compile Include="PDFjet.NET\Times_Bold.cs" />
+    <Compile Include="PDFjet.NET\Times_BoldItalic.cs" />
+    <Compile Include="PDFjet.NET\Times_Italic.cs" />
+    <Compile Include="PDFjet.NET\Times_Roman.cs" />
+    <Compile Include="PDFjet.NET\ZapfDingbats.cs" />
+    <Compile Include="Salsa20.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

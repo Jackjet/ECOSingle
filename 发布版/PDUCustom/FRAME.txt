@@ -1,0 +1,2033 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID\{7568952A-571E-4C70-BEA9-7F9004393436}]
+@="PenIMC4"
+"DllSurrogate"=""
+"RunAs"="Interactive User"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID\PenIMC4]
+"AppID"="{7568952A-571E-4C70-BEA9-7F9004393436}"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\clr_optimization_v4.0.30319_32]
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,\
+  00,6c,00,6f,00,62,00,61,00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,53,00,65,00,43,00,68,00,61,00,6e,00,67,00,65,00,4e,00,6f,\
+  00,74,00,69,00,66,00,79,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,\
+  65,00,00,00,53,00,65,00,49,00,6e,00,63,00,72,00,65,00,61,00,73,00,65,00,42,\
+  00,61,00,73,00,65,00,50,00,72,00,69,00,6f,00,72,00,69,00,74,00,79,00,50,00,\
+  72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,53,00,65,00,49,00,6e,\
+  00,63,00,72,00,65,00,61,00,73,00,65,00,51,00,75,00,6f,00,74,00,61,00,50,00,\
+  72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,53,00,65,00,54,00,63,\
+  00,62,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,53,00,\
+  65,00,41,00,73,00,73,00,69,00,67,00,6e,00,50,00,72,00,69,00,6d,00,61,00,72,\
+  00,79,00,54,00,6f,00,6b,00,65,00,6e,00,50,00,72,00,69,00,76,00,69,00,6c,00,\
+  65,00,67,00,65,00,00,00,53,00,65,00,53,00,68,00,75,00,74,00,64,00,6f,00,77,\
+  00,6e,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,00,00
+"DelayedAutostart"=dword:00000001
+"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,04,00,00,00,14,00,00,\
+  00,01,00,00,00,60,ea,00,00,01,00,00,00,00,a6,0e,00,01,00,00,00,00,60,ea,00,\
+  00,00,00,00,00,00,00,00
+"Type"=dword:00000010
+"Start"=dword:00000002
+"ErrorControl"=dword:00000000
+"ImagePath"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,45,\
+  00,54,00,5c,00,46,00,72,00,61,00,6d,00,65,00,77,00,6f,00,72,00,6b,00,5c,00,\
+  76,00,34,00,2e,00,30,00,2e,00,33,00,30,00,33,00,31,00,39,00,5c,00,6d,00,73,\
+  00,63,00,6f,00,72,00,73,00,76,00,77,00,2e,00,65,00,78,00,65,00,00,00
+"DisplayName"="Microsoft .NET Framework NGEN v4.0.30319_X86"
+"ObjectName"="LocalSystem"
+"Description"="Microsoft .NET Framework NGEN"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{07B0E5E9-D635-4CD3-B98D-7C10E700DEA0}]
+@="PimcSurrogate Class"
+"AppID"="{7568952A-571E-4C70-BEA9-7F9004393436}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{07B0E5E9-D635-4CD3-B98D-7C10E700DEA0}\InprocServer32]
+@="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\WPF\PenIMC.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{07B0E5E9-D635-4CD3-B98D-7C10E700DEA0}\ProgID]
+@="PenIMC.PimcSurrogate.4"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}]
+@="PSFactoryBuffer"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}\InProcServer32]
+@="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\WPF\PenIMC.dll"
+"ThreadingModel"="Both"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E23B1CED-5E47-4FDB-AF66-B20370261B5E}]
+@="PimcManager Class"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E23B1CED-5E47-4FDB-AF66-B20370261B5E}\InprocServer32]
+@="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\WPF\PenIMC.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E23B1CED-5E47-4FDB-AF66-B20370261B5E}\ProgID]
+@="PenIMC.PimcManager.4"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\netfx]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\netfx\Servicing]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\netfx\Servicing\4]
+"SP"=dword:00000000
+"SPIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\netfx\Servicing\4\core]
+"Install"=dword:00000001
+"InstallerType"="MSI"
+"SP"=dword:00000000
+"SPIndex"=dword:00000000
+"SPName"="RTM"
+"Version"="30319.01"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\netfx\Servicing\4\core\1033]
+"Install"=dword:00000001
+"InstallerType"="MSI"
+"SP"=dword:00000000
+"SPIndex"=dword:00000000
+"SPName"="RTM"
+"Version"="30319.01"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\netfx\Servicing\4\extended]
+"Install"=dword:00000001
+"InstallerType"="MSI"
+"SP"=dword:00000000
+"SPIndex"=dword:00000000
+"SPName"="RTM"
+"Version"="30319.01"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\netfx\Servicing\4\extended\1033]
+"Install"=dword:00000001
+"InstallerType"="MSI"
+"SP"=dword:00000000
+"SPIndex"=dword:00000000
+"SPName"="RTM"
+"Version"="30319.01"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\URT]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\URT\Servicing]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\URT\Servicing\2.0]
+"SP"=dword:00000002
+"SPIndex"=dword:00000002
+"Install"=dword:00000001
+"InstallerType"="CBS"
+"SPName"="SP2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DevDiv\URT\Servicing\2.0\2052]
+"SPIndex"=dword:00000001
+"Install"=dword:00000001
+"SP"=dword:00000002
+"InstallerType"="CBS"
+"SPName"="SP2"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\Folders]
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\"="1"
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SetupCache\Client\"=""
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SetupCache\"=""
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SetupCache\Extended\"=""
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\"="1"
+"C:\Windows\Microsoft.NET\"="1"
+"C:\Program Files\Microsoft.NET\RedistList\"=""
+"C:\Program Files\Microsoft.NET\"=""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Features\5C1093C35543A0E32A41B090A305076A]
+"NetFx_Core_x86"=""
+"Installer_Setup_ddf"=""
+"Netfx_SetupUtility"=""
+"MSICache_Core_x86_enu"=""
+"F_Installer_IdentityARP"=""
+"Netfx_NetFxRepair"=""
+"MSUCache_Core_x86_enu"=""
+"NetFx_Core_Agnostic"=""
+"Servicing_Key"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\5C1093C35543A0E32A41B090A305076A]
+"ProductName"="Microsoft .NET Framework 4 Client Profile"
+"PackageCode"="4972953F9C7CD5949858DE0D1DE9DC01"
+"Language"=dword:00000000
+"Version"=dword:0400766f
+"Assignment"=dword:00000001
+"AdvertiseFlags"=dword:00000184
+"InstanceType"=dword:00000000
+"AuthorizedLUAApp"=dword:00000001
+"DeploymentFlags"=dword:00000003
+"Clients"=hex(7):3a,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\5C1093C35543A0E32A41B090A305076A\SourceList]
+"PackageName"="netfx_Core_x86.msi"
+"LastUsedSource"=hex(2):6e,00,3b,00,31,00,3b,00,43,00,3a,00,5c,00,63,00,30,00,\
+  61,00,32,00,37,00,63,00,33,00,65,00,63,00,62,00,35,00,31,00,36,00,36,00,65,\
+  00,35,00,64,00,65,00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\5C1093C35543A0E32A41B090A305076A\SourceList\Media]
+"1"=";1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\5C1093C35543A0E32A41B090A305076A\SourceList\Net]
+"1"=hex(2):43,00,3a,00,5c,00,63,00,30,00,61,00,32,00,37,00,63,00,33,00,65,00,\
+  63,00,62,00,35,00,31,00,36,00,36,00,65,00,35,00,64,00,65,00,5c,00,00,00
+"2"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,\
+  4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,45,00,54,\
+  00,5c,00,46,00,72,00,61,00,6d,00,65,00,77,00,6f,00,72,00,6b,00,5c,00,76,00,\
+  34,00,2e,00,30,00,2e,00,33,00,30,00,33,00,31,00,39,00,5c,00,53,00,65,00,74,\
+  00,75,00,70,00,43,00,61,00,63,00,68,00,65,00,5c,00,43,00,6c,00,69,00,65,00,\
+  6e,00,74,00,5c,00,00,00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\UpgradeCodes\9DD53E019628E1F3794F990FADC3C2CE]
+"5C1093C35543A0E32A41B090A305076A"=""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{5F478AC7-7B54-4E5B-86E4-441092FAC8DD}]
+@="IPimcSurrogate"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{5F478AC7-7B54-4E5B-86E4-441092FAC8DD}\NumMethods]
+@="4"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{5F478AC7-7B54-4E5B-86E4-441092FAC8DD}\ProxyStubClsid32]
+@="{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{9BC79C93-2289-4BB5-ABF4-3287FD9CAE39}]
+@="IPimcContext"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{9BC79C93-2289-4BB5-ABF4-3287FD9CAE39}\NumMethods]
+@="8"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{9BC79C93-2289-4BB5-ABF4-3287FD9CAE39}\ProxyStubClsid32]
+@="{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}]
+@="IPimcManager"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}\NumMethods]
+@="5"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}\ProxyStubClsid32]
+@="{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{BAD4B6E9-99AF-42F8-A767-FBCFC5FCA397}]
+@="IPimcTablet"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{BAD4B6E9-99AF-42F8-A767-FBCFC5FCA397}\NumMethods]
+@="20"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface\{BAD4B6E9-99AF-42F8-A767-FBCFC5FCA397}\ProxyStubClsid32]
+@="{AF44BF80-36DD-4118-B4CF-8B1E3F4FB9CE}"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft .NET Framework 4 Client Profile]
+"DisplayIcon"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SetupCache\Client\DisplayIcon.ico"
+"DisplayName"="Microsoft .NET Framework 4 Client Profile"
+"DisplayVersion"="4.0.30319"
+"EstimatedSize"=dword:00009b34
+"UninstallString"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SetupCache\Client\Setup.exe /repair /x86 /parameterfolder Client"
+"VersionMinor"="0"
+"VersionMajor"="4"
+"Publisher"="Microsoft Corporation"
+"InstallLocation"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SetupCache\Client"
+"UninstallPath"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SetupCache\Client"
+"Readme"="http://go.microsoft.com/fwlink/?LinkId=164156"
+"URLInfoAbout"="http://go.microsoft.com/fwlink/?LinkId=164164"
+"URLUpdateInfo"="http://go.microsoft.com/fwlink/?LinkId=164165"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application\Microsoft.Transactions.Bridge 4.0.0.0]
+"CategoryCount"=dword:0000000f
+"CategoryMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\CDF]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\CDF\v4.0]
+"WMIInstalled"=dword:00000001
+"SMSvcHostPath"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\"
+"NetTcpPortSharingInstalled"=dword:00000001
+"NonHttpActivationInstalled"=dword:00000001
+"HttpNamespaceReservationInstalled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727]
+"Install"=dword:00000001
+"Increment"="5420"
+"Version"="2.0.50727.5420"
+"CBS"=dword:00000001
+"OCM"=dword:00000001
+"SP"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1028]
+"MSI"=dword:00000001
+"Install"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1029]
+"OCM"=dword:00000001
+"Install"=dword:00000001
+"MSI"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1030]
+"MSI"=dword:00000001
+"Install"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1031]
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1032]
+"MSI"=dword:00000001
+"Install"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1035]
+"Install"=dword:00000001
+"MSI"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1036]
+"MSI"=dword:00000001
+"Install"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1038]
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1040]
+"MSI"=dword:00000001
+"Install"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1041]
+"MSI"=dword:00000001
+"OCM"=dword:00000001
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1042]
+"MSI"=dword:00000001
+"Install"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1043]
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1044]
+"Install"=dword:00000001
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1045]
+"Install"=dword:00000001
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1046]
+"Install"=dword:00000001
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1049]
+"MSI"=dword:00000001
+"Install"=dword:00000001
+"OCM"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1053]
+"Install"=dword:00000001
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1055]
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\2052]
+"MSI"=dword:00000001
+"OCM"=dword:00000001
+"Install"=dword:00000001
+"Version"="2.0.50727.5420"
+"CBS"=dword:00000001
+"Increment"="5420"
+"SP"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\2070]
+"Install"=dword:00000001
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\3076]
+"MSI"=dword:00000001
+"OCM"=dword:00000001
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\3082]
+"OCM"=dword:00000001
+"MSI"=dword:00000001
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client]
+"Version"="4.0.30319"
+"TargetVersion"="4.0.0"
+"Install"=dword:00000001
+"MSI"=dword:00000001
+"Servicing"=dword:00000000
+"InstallPath"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client\1033]
+"Version"="4.0.30319"
+"TargetVersion"="4.0.0"
+"Install"=dword:00000001
+"Servicing"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full]
+"Version"="4.0.30319"
+"TargetVersion"="4.0.0"
+"Install"=dword:00000001
+"MSI"=dword:00000001
+"Servicing"=dword:00000000
+"InstallPath"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\1033]
+"Version"="4.0.30319"
+"TargetVersion"="4.0.0"
+"Install"=dword:00000001
+"Servicing"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0]
+@="deprecated"
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\NetMsmqActivator]
+"Type"=dword:00000020
+"Start"=dword:00000004
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):22,00,43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,\
+  73,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,\
+  00,45,00,54,00,5c,00,46,00,72,00,61,00,6d,00,65,00,77,00,6f,00,72,00,6b,00,\
+  5c,00,76,00,34,00,2e,00,30,00,2e,00,33,00,30,00,33,00,31,00,39,00,5c,00,53,\
+  00,4d,00,53,00,76,00,63,00,48,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,\
+  22,00,20,00,2d,00,4e,00,65,00,74,00,4d,00,73,00,6d,00,71,00,41,00,63,00,74,\
+  00,69,00,76,00,61,00,74,00,6f,00,72,00,00,00
+"DisplayName"="@YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelInstallRC.dll,-8195"
+"DependOnService"=hex(7):77,00,61,00,73,00,00,00,6d,00,73,00,6d,00,71,00,00,00,\
+  00,00
+"ObjectName"="NT AUTHORITY\NetworkService"
+"Description"="@YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelInstallRC.dll,-8194"
+"FailureActions"=hex:84,03,00,00,00,00,00,00,00,00,00,00,02,00,00,00,14,00,00,\
+  00,01,00,00,00,c0,d4,01,00,00,00,00,00,71,00,41,00
+"ServiceSidType"=dword:00000003
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,\
+  00,6c,00,6f,00,62,00,61,00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\NetMsmqActivator\Security]
+"Security"=hex:01,00,14,80,b8,00,00,00,c4,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,01,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,88,00,06,00,00,00,00,00,14,00,fd,01,02,00,01,01,00,00,00,00,00,\
+  05,12,00,00,00,00,00,18,00,ff,01,0f,00,01,02,00,00,00,00,00,05,20,00,00,00,\
+  20,02,00,00,00,00,14,00,8d,01,02,00,01,01,00,00,00,00,00,05,0b,00,00,00,00,\
+  00,18,00,fd,01,02,00,01,02,00,00,00,00,00,05,20,00,00,00,23,02,00,00,00,00,\
+  14,00,14,00,00,00,01,01,00,00,00,00,00,05,04,00,00,00,00,00,14,00,14,00,00,\
+  00,01,01,00,00,00,00,00,05,06,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  01,01,00,00,00,00,00,05,12,00,00,00
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\NetPipeActivator]
+"Type"=dword:00000020
+"Start"=dword:00000004
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,45,\
+  00,54,00,5c,00,46,00,72,00,61,00,6d,00,65,00,77,00,6f,00,72,00,6b,00,5c,00,\
+  76,00,34,00,2e,00,30,00,2e,00,33,00,30,00,33,00,31,00,39,00,5c,00,53,00,4d,\
+  00,53,00,76,00,63,00,48,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,00,00
+"DisplayName"="@YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelInstallRC.dll,-8197"
+"DependOnService"=hex(7):77,00,61,00,73,00,00,00,00,00
+"ObjectName"="NT AUTHORITY\LocalService"
+"Description"="@YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelInstallRC.dll,-8196"
+"FailureActions"=hex:84,03,00,00,00,00,00,00,00,00,00,00,02,00,00,00,14,00,00,\
+  00,01,00,00,00,c0,d4,01,00,00,00,00,00,65,00,41,00
+"ServiceSidType"=dword:00000003
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,\
+  00,6c,00,6f,00,62,00,61,00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\NetPipeActivator\Security]
+"Security"=hex:01,00,14,80,b8,00,00,00,c4,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,01,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,88,00,06,00,00,00,00,00,14,00,fd,01,02,00,01,01,00,00,00,00,00,\
+  05,12,00,00,00,00,00,18,00,ff,01,0f,00,01,02,00,00,00,00,00,05,20,00,00,00,\
+  20,02,00,00,00,00,14,00,8d,01,02,00,01,01,00,00,00,00,00,05,0b,00,00,00,00,\
+  00,18,00,fd,01,02,00,01,02,00,00,00,00,00,05,20,00,00,00,23,02,00,00,00,00,\
+  14,00,14,00,00,00,01,01,00,00,00,00,00,05,04,00,00,00,00,00,14,00,14,00,00,\
+  00,01,01,00,00,00,00,00,05,06,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  01,01,00,00,00,00,00,05,12,00,00,00
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\NetTcpActivator]
+"Type"=dword:00000020
+"Start"=dword:00000004
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,45,\
+  00,54,00,5c,00,46,00,72,00,61,00,6d,00,65,00,77,00,6f,00,72,00,6b,00,5c,00,\
+  76,00,34,00,2e,00,30,00,2e,00,33,00,30,00,33,00,31,00,39,00,5c,00,53,00,4d,\
+  00,53,00,76,00,63,00,48,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,00,00
+"DisplayName"="@YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelInstallRC.dll,-8199"
+"DependOnService"=hex(7):77,00,61,00,73,00,00,00,4e,00,65,00,74,00,54,00,63,00,\
+  70,00,50,00,6f,00,72,00,74,00,53,00,68,00,61,00,72,00,69,00,6e,00,67,00,00,\
+  00,00,00
+"ObjectName"="NT AUTHORITY\LocalService"
+"Description"="@YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelInstallRC.dll,-8198"
+"FailureActions"=hex:84,03,00,00,00,00,00,00,00,00,00,00,02,00,00,00,14,00,00,\
+  00,01,00,00,00,c0,d4,01,00,00,00,00,00,41,00,63,00
+"ServiceSidType"=dword:00000003
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,\
+  00,6c,00,6f,00,62,00,61,00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\NetTcpActivator\Security]
+"Security"=hex:01,00,14,80,b8,00,00,00,c4,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,01,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,88,00,06,00,00,00,00,00,14,00,fd,01,02,00,01,01,00,00,00,00,00,\
+  05,12,00,00,00,00,00,18,00,ff,01,0f,00,01,02,00,00,00,00,00,05,20,00,00,00,\
+  20,02,00,00,00,00,14,00,8d,01,02,00,01,01,00,00,00,00,00,05,0b,00,00,00,00,\
+  00,18,00,fd,01,02,00,01,02,00,00,00,00,00,05,20,00,00,00,23,02,00,00,00,00,\
+  14,00,14,00,00,00,01,01,00,00,00,00,00,05,04,00,00,00,00,00,14,00,14,00,00,\
+  00,01,01,00,00,00,00,00,05,06,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  01,01,00,00,00,00,00,05,12,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PenIMC.PimcManager.4]
+@="PimcManager Class"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PenIMC.PimcManager.4\CLSID]
+@="{E23B1CED-5E47-4FDB-AF66-B20370261B5E}"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PenIMC.PimcSurrogate.4]
+@="PimcSurrogate Class"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\PenIMC.PimcSurrogate.4\CLSID]
+@="{07B0E5E9-D635-4CD3-B98D-7C10E700DEA0}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\User Agent\Post Platform]
+"SLCC2"=""
+".NET CLR 2.0.50727"=""
+".NET4.0C"=""
+".NET4.0E"=""
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security\ServiceModel 4.0.0.0]
+"TypesSupported"=dword:0000001f
+"CategoryMessageFile"="%SystemRoot%\System32\MsAuditE.dll"
+"CategoryCount"=dword:00000003
+"ParameterMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventSourceFlags"=dword:00000001
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application\ServiceModel Audit 4.0.0.0]
+"TypesSupported"=dword:0000001f
+"CategoryCount"=dword:00000002
+"CategoryMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\setup_RASAPI32]
+"EnableFileTracing"=dword:00000000
+"EnableConsoleTracing"=dword:00000000
+"FileTracingMask"=dword:ffff0000
+"ConsoleTracingMask"=dword:ffff0000
+"MaxFileSize"=dword:00100000
+"FileDirectory"=hex(2):25,00,77,00,69,00,6e,00,64,00,69,00,72,00,25,00,5c,00,\
+  74,00,72,00,61,00,63,00,69,00,6e,00,67,00,00,00
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\setup_RASMANCS]
+"EnableFileTracing"=dword:00000000
+"EnableConsoleTracing"=dword:00000000
+"FileTracingMask"=dword:ffff0000
+"ConsoleTracingMask"=dword:ffff0000
+"MaxFileSize"=dword:00100000
+"FileDirectory"=hex(2):25,00,77,00,69,00,6e,00,64,00,69,00,72,00,25,00,5c,00,\
+  74,00,72,00,61,00,63,00,69,00,6e,00,67,00,00,00
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs]
+"C:\Windows\system32\vfpodbc.dll"=dword:00000001
+"c:\Windows\system32\atl100.dll"=dword:00000001
+"c:\Windows\system32\msvcr100.dll"=dword:00000001
+"c:\Windows\system32\msvcp100.dll"=dword:00000001
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.1.4322\System.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.1.4322\System.EnterpriseServices.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.1.4322\mscorlib.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.1.4322\mscoree.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.1.4322\System.Drawing.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.0.3705\System.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.0.3705\Microsoft.JScript.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.0.3705\System.EnterpriseServices.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.0.3705\System.Drawing.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.1.4322\Microsoft.JScript.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.0.3705\mscorlib.tlb"=dword:00001000
+"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v1.0.3705\mscoree.tlb"=dword:00001000
+"C:\Windows\system32\msvcr100_clr0400.dll"=dword:00000002
+"C:\Windows\system32\aspnet_counters.dll"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\System\SMSvcHost 4.0.0.0]
+"CategoryCount"=dword:0000000f
+"CategoryMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application\System.IdentityModel 4.0.0.0]
+"CategoryCount"=dword:0000000f
+"CategoryMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application\System.IO.Log 4.0.0.0]
+"CategoryCount"=dword:0000000f
+"CategoryMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application\System.Runtime.Serialization 4.0.0.0]
+"CategoryCount"=dword:0000000f
+"CategoryMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application\System.ServiceModel 4.0.0.0]
+"CategoryCount"=dword:0000000f
+"CategoryMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ServiceModelEvents.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3C3901C5-3455-3E0A-A214-0B093A5070A6}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="4.0.30319"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20160725"
+"InstallLocation"=""
+"InstallSource"="C:\c0a27c3ecb5166e5de\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,33,00,43,00,33,00,39,00,30,00,31,00,43,00,\
+  35,00,2d,00,33,00,34,00,35,00,35,00,2d,00,33,00,45,00,30,00,41,00,2d,00,41,\
+  00,32,00,31,00,34,00,2d,00,30,00,42,00,30,00,39,00,33,00,41,00,35,00,30,00,\
+  37,00,30,00,41,00,36,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,6d,\
+  00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,00,\
+  2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,6b,\
+  00,49,00,64,00,3d,00,31,00,36,00,34,00,31,00,35,00,36,00,00,00
+"Size"=dword:00009b34
+"EstimatedSize"=dword:0005198f
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,43,00,33,00,39,00,30,00,31,00,43,\
+  00,35,00,2d,00,33,00,34,00,35,00,35,00,2d,00,33,00,45,00,30,00,41,00,2d,00,\
+  41,00,32,00,31,00,34,00,2d,00,30,00,42,00,30,00,39,00,33,00,41,00,35,00,30,\
+  00,37,00,30,00,41,00,36,00,7d,00,00,00
+"URLInfoAbout"="http://go.microsoft.com/fwlink/?LinkId=164164"
+"URLUpdateInfo"="http://go.microsoft.com/fwlink/?LinkId=164165"
+"VersionMajor"=dword:00000004
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0400766f
+"Language"=dword:00000000
+"DisplayName"="Microsoft .NET Framework 4 Client Profile"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UpgradeCodes]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UpgradeCodes\9DD53E019628E1F3794F990FADC3C2CE]
+"5C1093C35543A0E32A41B090A305076A"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UpgradeCodes\A9513C995E4C6E2389AFA74CB5BC982C]
+"FCDAC0A0AD874C333A05DC1548B97920"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UpgradeCodes\DBFF5159BA0409649B38F48A1EE47E5F]
+"93BAD29AC2E44034A96BCB446EB8552E"=""
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application\WMI.NET Provider Extension]
+"EventMessageFile"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\EventLogMessages.dll"
+"TypesSupported"=dword:00000007
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework]
+"InstallRoot"="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\AspNetMMCExt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\AspNetMMCExt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\CustomMarshalers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\CustomMarshalers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\ISymWrapper, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\ISymWrapper, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Conversion.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Conversion.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Engine, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Engine, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Transactions.Bridge.Dtc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Transactions.Bridge.Dtc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic.Compatibility, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic.Compatibility, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic.Compatibility.Data, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualBasic.Compatibility.Data, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualC.STLCLR, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.VisualC.STLCLR, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Windows.ApplicationServer.Applications, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Windows.ApplicationServer.Applications, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Workflow.Compiler, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\Microsoft.Workflow.Compiler, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Classic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Classic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Luna, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Luna, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Royale, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationFramework.Royale, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\sysglobl, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\sysglobl, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities.Core.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities.Core.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Activities.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.AddIn, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.AddIn, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.AddIn.Contract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.AddIn.Contract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Services.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Services.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Device, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Device, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.DirectoryServices.AccountManagement, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.DirectoryServices.AccountManagement, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.IdentityModel.Selectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.IdentityModel.Selectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.IO.Log, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.IO.Log, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Management.Instrumentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Management.Instrumentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.ServiceMoniker40, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.ServiceMoniker40, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.WasHosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.WasHosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DynamicData.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.DynamicData.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Input.Manipulations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Input.Manipulations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Windows.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationClientsideProviders, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationClientsideProviders, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{3C3901C5-3455-3E0A-A214-0B093A5070A6}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Fusion\References\XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{0A0CADCF-78DA-33C4-A350-CD51849B9702}"=".NET Framework Redist Setup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{02240DE7-789B-4F47-BD98-DBE99F94944A}]
+@="install \"PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{04DB70FB-852B-4372-96FE-B055F8B34B66}]
+@="install \"System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{04E7835E-92A6-43DE-93AD-43926FAEEA23}]
+@="install \"System.IdentityModel.Selectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{0758279B-5F00-492E-877E-4983D88B2E71}]
+@="install \"System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{09BDAA09-C5B6-437E-A27D-09FEC7B8836D}]
+@="install \"System.Data.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{0AF50F96-2B5B-4A1C-8E0E-5AC2D1799E31}]
+@="install \"Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{0C963E10-6A8A-4B32-BD84-885286320F41}]
+@="install \"UIAutomationClientsideProviders, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{0D7BAC8B-F101-4832-A382-27AD7B69D100}]
+@="install \"PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{1201E981-07C4-4772-8D88-D773EFD4C422}]
+@="install \"System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{12D66A4E-0921-4065-9F60-87CB27F2C726}]
+@="install \"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\ComSvcConfig.exe\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{1423DE38-0C95-4F9E-B9BC-3FBD0903449F}]
+@="install \"System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{14EA4A03-1E83-4A0C-A775-87195CD600B9}]
+@="install \"System.Data.Services.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{160AB169-4021-4148-A468-4F71715A1487}]
+@="install \"System.Web.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{189490AB-2764-4A22-9D11-93726896ED2C}]
+@="install \"UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{192D7102-707F-41C5-9C58-0DA29501CF76}]
+@="install \"System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{1A078DB5-03BD-4C2E-B120-0D095AE492D2}]
+@="install \"System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{1BD33C9A-8B7F-4E75-880B-AD8F6513D7F2}]
+@="install \"System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{1E8B5A55-27C8-4947-B20E-147C3C99BE98}]
+@="install \"WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{1EB58BB3-5A10-4DDF-935F-A3ABCAB4CAEC}]
+@="install \"System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{1F99A2B2-DF35-4D81-B84F-45ED361F42BE}]
+@="install \"System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{21B9A4E0-5BD6-402B-A8FA-64BA4ED114FF}]
+@="install \"Microsoft.VisualBasic.Compatibility, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{232BB529-D693-47A9-ACD5-028740350C21}]
+@="install \"System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{23925C97-DE65-4819-A64C-ACCB72475CF1}]
+@="install \"Microsoft.Build.Conversion.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{2705BD21-B381-4DC2-8EBB-736F8DD3D22D}]
+@="install \"System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{28DEB527-F880-4BB6-AFD3-B2EE03DAC7D2}]
+@="install \"Microsoft.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{2AD93D7A-3A59-4C5C-9CAA-21F79A8F0AE8}]
+@="install \"System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{2EB32EED-C9ED-4141-A733-01C925F6A254}]
+@="install \"System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{30F12D73-D63B-45DA-B4B5-96DC879938AD}]
+@="install \"System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{30F8308F-9493-40A5-9389-6227A4A40141}]
+@="install \"System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{32EF54CF-D28F-44B7-8EAC-6A057C4D9AD3}]
+@="install \"System.AddIn, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{33223E50-2423-4C4B-9FFF-0846AAFA313D}]
+@="install \"System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{37408EB9-C7D1-4151-B196-8FAB44E0B19B}]
+@="install \"System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{3992507A-B141-4DE7-B048-0A03EF9212AA}]
+@="install \"Microsoft.Transactions.Bridge.Dtc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{3C090BD3-6171-485B-B41F-C61CB408BD56}]
+@="install \"System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{3D13BF07-BCA1-4523-B896-8A72FF1EC55E}]
+@="install \"UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{3EF52108-ACE4-40E5-A38E-4A4C1C617FC4}]
+@="install \"System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{427C6437-2B7C-4C3F-9ECF-B1E0474C7567}]
+@="install \"CustomMarshalers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{4521F48D-1E6A-4F8D-98B4-36E8E13DC303}]
+@="install \"System.Windows.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{49459F5F-55A1-4BF4-91A0-2EA8E390FBC6}]
+@="install \"System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{4D8E4BDF-22B5-4865-AE00-3C3494B06EB5}]
+@="install \"System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{512C8AFF-411E-4B5D-AAAA-EBC84DFB843F}]
+@="install \"System.Data.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{53F44EBF-3D55-4EC2-9580-4C422B7DDA8B}]
+@="install \"System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{56858071-5797-411B-B4D0-501F4F99DA60}]
+@="install \"AspNetMMCExt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{56C8415E-BDA0-4192-91A9-4E6AFFE2CBD3}]
+@="install \"System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{57D5E9AC-A4B9-4239-960D-38E2AE8807F8}]
+@="install \"PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{58DD8357-B9C8-45D3-9790-0D39BAB1797E}]
+@="install \"System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{59CCC2C8-FA0E-46B1-A024-ED4335C192F4}]
+@="install \"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{59F2A6B4-AA70-49C0-A5CD-5B0C0BC4E1BC}]
+@="install \"System.Web.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{5D1F705D-01E7-4CA5-9107-53AE9D08CAE0}]
+@="install \"SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{5D33A8E1-C90F-4EAF-89A9-AF03D8238C7C}]
+@="install \"System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{5DCBF5EE-0442-4E20-B953-54EF3786DA1E}]
+@="install \"System.Device, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{64DAC1C9-1058-48BB-9AC4-008128AECCCC}]
+@="install \"Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{65B7D828-3497-44A3-B123-7E1A9ACDD2FF}]
+@="install \"System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{65F923E9-1BC6-43ED-9281-4324D95B053F}]
+@="install \"System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{67D4B9E7-BC23-4431-B31C-68EFD4151710}]
+@="install \"System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{685BA9D3-8258-4A2D-8134-08AFEAC99435}]
+@="install \"Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{6E29A5D1-D388-4562-A83D-BFAA115B8B8B}]
+@="install \"PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{6E8D8357-B52B-4278-B431-4A2B1ACFC78B}]
+@="install \"System.Activities.Core.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{715923D7-DCA5-4D5C-9B7B-B137CA7FF734}]
+@="install \"System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{746E51D5-4555-4488-8C50-555E565CFE67}]
+@="install \"System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{7556AC1C-8B4E-4031-9FAC-2E2296FC2B65}]
+@="install \"System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{758664E9-28BD-4525-86D5-9511E3B3F476}]
+@="install \"System.AddIn.Contract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{7C468CDB-7C37-4261-8D0A-BAB6ADFD12F5}]
+@="install \"System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{7E9E2BE6-AB54-43DF-B651-83A9829D5FD5}]
+@="install \"Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{806C628E-F793-4BE3-ADF3-5333C66F1EE6}]
+@="install \"System.ServiceModel.ServiceMoniker40, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{8318FB1B-8619-433D-A978-2F723729EA47}]
+@="install \"System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{87ADA721-26B9-4766-B3EB-5F38CE1D14B7}]
+@="install \"System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{89317C83-4DB2-4FF4-A62B-3BC734C4C2CC}]
+@="install \"System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{8A1B185F-582E-4744-8B99-AF3DB76C0F11}]
+@="install \"System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{92195CB7-881D-46CD-A1AE-60C060EE9A55}]
+@="install \"System.Activities.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{936C4B7A-2E50-4BF2-96E1-B74F4016F08C}]
+@="install \"System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{93834A32-BC7B-45CE-8547-A9D5EF75D3CD}]
+@="install \"System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{93BC0921-3D9D-4B66-8F41-C1FD9959D0FC}]
+@="install \"System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{967C1D9B-FC8C-46C4-B3FF-FB8B763D6C2B}]
+@="install \"Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{98DDB970-CFA9-445D-B1ED-860F0B2573CD}]
+@="install \"PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{9B152B3F-E21A-4B6D-8917-7CC783A73A5E}]
+@="install \"System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{9C9241DF-4717-4011-8496-5396518CAE80}]
+@="install \"System.DirectoryServices.AccountManagement, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{A14B4C6B-028D-4B5A-BA2A-693C6827AC0F}]
+@="install \"Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{A3620877-518E-4475-BA57-DFE9FD85AB3C}]
+@="install \"System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{A6C26C14-40DE-41FD-84F0-BD2059D1BCAC}]
+@="install \"System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{A736C849-FE8A-40D1-B074-092B7A0FBA09}]
+@="install \"System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{A9DF467C-12FF-4CDC-A123-E619B691A2C0}]
+@="install \"System.ServiceModel.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{AADD860A-15C3-4158-BA49-FD0C49F0E587}]
+@="install \"System.IO.Log, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{AB2E8B40-C4F6-40C5-A220-56504AC93FDC}]
+@="install \"System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{AC225E2E-9108-4AC5-81F2-9A98F798AF56}]
+@="install \"Microsoft.VisualBasic.Compatibility.Data, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{AC4A553F-E919-4F1D-86A4-3B408C2CAB3D}]
+@="install \"System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{AD8A12BD-2558-4B05-B499-98DAD2705397}]
+@="install \"System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{AD95E36C-1AD7-4BD7-A171-C62BF5D87396}]
+@="install \"System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{AE90BC0A-B808-4279-B0F6-AA2F13A5877C}]
+@="install \"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{B3D3BF11-2D7B-4D75-97ED-ECB55DD8F1F1}]
+@="install \"WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{B6A153BE-5CC2-4190-A2A6-5F6FF1D63D03}]
+@="install \"System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{B8572559-1D8D-4D5C-A16F-E5D7443E6B03}]
+@="install \"ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{BD59200F-B203-4248-B432-F0FFFD6D2A45}]
+@="install \"XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{BE64DC18-6D6A-4FE1-ACE3-1ECB44FA4D01}]
+@="install \"Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{BE841AC0-48CA-47A4-BD61-0735F5666BBF}]
+@="install \"System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{BE95FBAB-3269-4328-B390-E72C6FD57B92}]
+@="install \"System.Web.DynamicData.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{C23DCFCD-06E5-4206-AEA1-0F9A82B4256E}]
+@="install \"Microsoft.Build.Engine, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{C469127D-8B5F-4BCF-82A3-74219AF36D90}]
+@="install \"System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{C85915AD-6807-4523-A423-4A91271DF628}]
+@="install \"System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{C873F77B-E2AD-4163-8352-B996F3D11A7E}]
+@="install \"System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{C939FD24-A4C6-42BD-B932-F39906042A93}]
+@="install \"Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{CA9A0979-C363-4C4A-B52D-BCB5D1EE378E}]
+@="install \"System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{CE661D05-852E-493E-A814-7C80171A8A30}]
+@="install \"PresentationFramework.Royale, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{D0576A36-9EC5-459E-BA9A-4E0E66293ABE}]
+@="install \"System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{D25599FA-C13B-4F0A-BFDC-E3C3B6E97E35}]
+@="install \"System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{D517FAD0-8DE2-4EFE-8B09-A600D8807AE4}]
+@="install \"System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{D839DD73-48C8-4A73-81C7-EB9F32446A3F}]
+@="install \"System.Windows.Input.Manipulations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{DAF1F283-580E-419D-9B3B-EEE72A2FCBC9}]
+@="install \"System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{DC646D13-EE7F-4622-9A27-7362885B9FBD}]
+@="install \"System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{DC82AC07-F21A-4177-B81C-C01417B10DC3}]
+@="install \"System.Management.Instrumentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{DFE3A8EE-F6AF-499B-B8A4-53571AB80D2E}]
+@="install \"System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{E26129D4-BB6A-46DC-87B6-2F1402A5B6A2}]
+@="install \"System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{E317CE61-CBDA-49FD-BE2B-9217B6769598}]
+@="install \"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\SMSvcHost.exe\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{E74E57A9-A49D-469C-A265-9C267711AC5F}]
+@="install \"Microsoft.Workflow.Compiler, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{E83E96D5-4344-4E8D-A798-CC920B2CF669}]
+@="install \"System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{EB72C251-BF55-46F4-9A26-DE7AFEB6D888}]
+@="install \"System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{EEA1F4E9-9B8D-46C3-AF70-2CF9FC006D7B}]
+@="install \"PresentationFramework.Luna, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{F374C69F-539A-4306-A3E3-F111302FE8D2}]
+@="install \"Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{F6482398-D4B3-4FA0-B9BC-36C16030ADEF}]
+@="install \"System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{F75A1AFC-DA8F-4022-A3B4-2FBC5D179025}]
+@="install \"System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{FA534CB3-1FBC-43DC-A8A6-7B71A0E9B380}]
+@="install \"UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{FDA510B7-A50E-49DC-871B-D559E8CC60B6}]
+@="install \"System.Activities.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{FDB9FF61-BB34-4611-A82A-C7387735BC7B}]
+@="install \"PresentationFramework.Classic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{FE0F3A91-FE5F-4A0A-B06A-D6C5E41C9C12}]
+@="install \"System.ServiceModel.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{FEBE6529-E462-4C38-9B42-2DF24F5224CA}]
+@="install \"mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" /NoDependencies /queue:1 /nologo /netfxpri1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\NGenQueueMSI\WIN32\Default\{FF7F8229-01E8-4E8A-B953-36DCCA89E032}]
+@="install \"YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\WsatConfig.exe\" /NoDependencies /queue:3 /nologo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\BTSNTSvc.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\BTSNTSvc.exe\{CA109828-7CE7-40F4-AD73-C7575455A7D5}]
+"Target Version"="v1.1.4322"
+"Minimum File Version"="3.0.0.0"
+"Maximum File Version"="3.0.9999.9999"
+"Company"="Microsoft Corporation"
+"Internal Name"="BTSNTSvc"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\compeif.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\compeif.exe\{6AA1435F-1473-4A6D-B82A-1DD4E3A20E34}]
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Company"="Microsoft Corporation"
+"Target Version"="v1.1.4322"
+"Minimum File Version"="4.0.0.0"
+"Maximum File Version"="4.0.9999.9999"
+"Internal Name"="compeif.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ConfigFramework.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ConfigFramework.exe\{CF59770F-C96E-472D-B532-2F9AE8D895DC}]
+"Target Version"="v1.1.4322"
+"Maximum File Version"="3.0.9999.9999"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Minimum File Version"="3.0.0.0"
+"Internal Name"="ConfigFramework"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\DW15.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\DW15.exe\{18B0BD4E-298B-4CB1-98E4-F49CFCE6CFB4}]
+"File Size"=dword:0002da48
+"Target Version"="v1.1.4322"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehmsas.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehmsas.exe\{04A93A93-ABBA-44AF-948F-50B7182C631A}]
+"Maximum File Version"="5.1.2600.9999"
+"Internal Name"="eHMSAS"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Company"="Microsoft Corporation"
+"Target Version"="v1.0.3705"
+"Minimum File Version"="5.1.2600.0000"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehrec.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehrec.exe\{44D9F380-9050-4365-AA06-DA121F6F2B7D}]
+"Company"="Microsoft Corporation"
+"Minimum File Version"="5.1.2600.0000"
+"Internal Name"="eHRec"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+"Maximum File Version"="5.1.2600.9999"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehSched.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehSched.exe\{EE19C1D5-4D4B-4D19-874A-FD6633C9293E}]
+"Target Version"="v1.0.3705"
+"Minimum File Version"="5.1.2600.0000"
+"Internal Name"="ehSched"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Maximum File Version"="5.1.2600.9999"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehShell.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehShell.exe\{95736FC3-FC2F-4ED5-9632-0216DF1B8019}]
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Company"="Microsoft Corporation"
+"Target Version"="v1.0.3705"
+"Minimum File Version"="5.1.2600.0000"
+"Maximum File Version"="5.1.2600.9999"
+"Internal Name"="ehshell.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehtray.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\ehtray.exe\{FECCD425-B48B-4062-A580-642302E20A30}]
+"Internal Name"="ehtray"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Company"="Microsoft Corporation"
+"Target Version"="v1.0.3705"
+"Minimum File Version"="5.1.2600.0000"
+"Maximum File Version"="5.1.2600.9999"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\esp_srv.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\esp_srv.exe\{D044DE85-EC81-4A04-BA4B-DF316E80DF61}]
+"Target Version"="v1.1.4322"
+"Minimum File Version"="4.0.0.0"
+"Maximum File Version"="4.0.9999.9999"
+"Internal Name"="esp_srv.exe"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\excel.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\excel.exe\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Minimum File Version Number"="11.0.0.0"
+"Maximum File Version Number"="11.0.9999.9999"
+"Target Version"="v1.1.4322"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\excel.exe\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\Registry Keys]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\excel.exe\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\Registry Keys\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Key Presence"=dword:00000000
+"Key Name"="HKEY_CLASSES_ROOT\Interface\{000C0601-0000-0000-C000-000000000046}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\medctrro.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\medctrro.exe\{DA93B8AF-F88E-438D-A5A3-CB78BB4E6BF9}]
+"Target Version"="v1.0.3705"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Internal Name"="MedCtrRO.exe"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\msi.dll]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\msi.dll\{462EF42B-ABA4-4eac-9843-9EED260F54D0}]
+"Company"="Microsoft Corporation"
+"Maximum File Version"="5.0.9999.99999"
+"Minimum File Version"="2.0.0000.00000"
+"Target Version"="v4.0.30319"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\Setup.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\Setup.exe\{83E0F69E-84FA-4961-9FD4-3025FCEE92EA}]
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Target Version"="v1.1.4322"
+"Minimum File Version"="3.0.0.0"
+"Maximum File Version"="3.0.9999.9999"
+"Internal Name"="Setup"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\snchk.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\snchk.exe\{1CF3A71C-18F9-41EF-8BAD-EA355F4DB250}]
+"Target Version"="v1.0.3705"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Maximum File Version"="5.1.2600.9999"
+"Internal Name"="SnChk.exe"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\testmess.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\testmess.exe\{11856902-6A4D-4AFB-AF94-E1FCA58C8BAF}]
+"Target Version"="v1.1.4322"
+"Minimum File Version"="4.0.0.0"
+"Maximum File Version"="4.0.9999.9999"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Internal Name"="testmess.exe"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\TrackingDbHelper.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\TrackingDbHelper.exe\{162E7914-3267-46E2-82C8-8E72484BD554}]
+"Minimum File Version"="3.0.0.0"
+"Maximum File Version"="3.0.9999.9999"
+"Internal Name"="TrackingDbHelper"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Target Version"="v1.1.4322"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\Trigcon.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\Trigcon.exe\{3C010CA2-7989-4C96-91C3-1564E33F9A42}]
+"Target Version"="v1.1.4322"
+"Minimum File Version"="4.0.0.0"
+"Maximum File Version"="4.0.9999.9999"
+"Internal Name"="trigcon.exe"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\validins.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\validins.exe\{00BBFD35-5011-4117-9DA1-2D3BFAAF9561}]
+"Maximum File Version"="4.0.9999.9999"
+"Target Version"="v1.1.4322"
+"Internal Name"="validins.exe"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Minimum File Version"="4.0.0.0"
+"Company"="Microsoft Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\winword.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\winword.exe\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Minimum File Version Number"="11.0.0.0"
+"Maximum File Version Number"="11.0.9999.9999"
+"Target Version"="v1.1.4322"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\winword.exe\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\Registry Keys]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\winword.exe\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\Registry Keys\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Key Presence"=dword:00000000
+"Key Name"="HKEY_CLASSES_ROOT\Interface\{000C0601-0000-0000-C000-000000000046}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\xsd2edi.exe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\xsd2edi.exe\{B469F89A-19A5-44B2-A12F-E93394003755}]
+"Minimum File Version"="4.0.0.0"
+"Maximum File Version"="4.0.9999.9999"
+"Internal Name"="XSD2EDI.EXE"
+"Company"="Microsoft Corporation"
+"Target Version"="v1.1.4322"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\XSharpP.EXE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\AppPatch\v4.0.30319.00000\XSharpP.EXE\{BDC69590-00EE-408A-B21F-58D9EF182CF6}]
+"Internal Name"="XSharpP"
+"Company"="Microsoft Corporation"
+"Target Version"="v1.1.4322"
+"Minimum File Version"="3.0.0.0"
+"Maximum File Version"="3.0.9999.9999"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\Standards]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\Standards\Standard CLI 2002]
+"v4.0.30319"=dword:00000fff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\Standards\Standard CLI 2005]
+"v4.0.30319"=dword:00000fff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\Standards\v1.0.0]
+"v4.0.30319"=dword:0000766f
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\Upgrades]
+"4.0.30319"="4.0.0-4.0.30319"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\v4.0]
+"30319"="30319-30319"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v1.0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v1.0\SBSDisabled]
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs\.NETFramework,Version=v4.0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs\.NETFramework,Version=v4.0,Profile=Client]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs\Client]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs\Default]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Windows Presentation Foundation]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Windows Presentation Foundation\Hosting]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Windows Presentation Foundation\Hosting\Hosts]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Windows Presentation Foundation\Hosting\Hosts\v4.0]
+@="YYYYYYYYYYYYYY\FrameWorkCustom\Microsoft.NET\Framework\v4.0.30319\WPF\PresentationHost_v0400.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Windows Presentation Foundation\Namespaces]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Windows Presentation Foundation\Namespaces\http://schemas.microsoft.com/netfx/2009/xaml/presentation]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Windows Presentation Foundation\Namespaces\http://schemas.microsoft.com/netfx/2009/xaml/presentation\v4.0]

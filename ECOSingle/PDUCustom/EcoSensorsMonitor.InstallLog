@@ -1,0 +1,197 @@
+﻿正在安装程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+已成功安装服务 eco Sensors Device Monitor。
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在提交程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   unistall = 
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   unistall = 
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。
+正在安装程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   unistall = 
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   unistall = 
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。
+正在卸载程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在移除 EventLog 源 eco Sensors Device Monitor。
+正在从系统中移除服务 eco Sensors Device Monitor...
+已成功地从系统中移除服务 eco Sensors Device Monitor。
+尝试停止服务 eco Sensors Device Monitor。
+正在卸载程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在移除 EventLog 源 eco Sensors Device Monitor。
+警告: 源 eco Sensors Device Monitor 未在本地计算机上注册。
+正在从系统中移除服务 eco Sensors Device Monitor...
+在卸载 System.ServiceProcess.ServiceInstaller 安装程序的过程中发生异常。
+System.ComponentModel.Win32Exception: 指定的服务未安装。
+在卸载的过程中发生异常。将忽略该异常并继续卸载。但是，在卸载完成之后应用程序可能未完全卸载。
+正在安装程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+已成功安装服务 eco Sensors Device Monitor。
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在提交程序集“C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\源码\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在卸载程序集“C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在移除 EventLog 源 eco Sensors Device Monitor。
+正在从系统中移除服务 eco Sensors Device Monitor...
+已成功地从系统中移除服务 eco Sensors Device Monitor。
+正在安装程序集“C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+已成功安装服务 eco Sensors Device Monitor。
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在提交程序集“C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装程序集“C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\ECO\EcoSensors\bin\Debug\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。
+正在安装程序集“C:\Users\Administrator\Desktop\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\PDUCustom\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+已成功安装服务 eco Sensors Device Monitor。
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在提交程序集“C:\Users\Administrator\Desktop\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Desktop\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = C:\Users\Administrator\Desktop\PDUCustom\EcoSensorsMonitor.exe
+正在安装程序集“F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。
+在 System.Diagnostics.EventLogInstaller 安装程序的“回滚”阶段发生异常。
+System.Security.SecurityException: 未找到源，但未能搜索某些或全部事件日志。  不可访问的日志: Security。
+在安装的“回滚”阶段发生异常。将忽略该异常并继续回滚。但是，在完成回滚后计算机可能无法完全还原到它的初始状态。
+正在安装程序集“F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。
+在 System.Diagnostics.EventLogInstaller 安装程序的“回滚”阶段发生异常。
+System.Security.SecurityException: 未找到源，但未能搜索某些或全部事件日志。  不可访问的日志: Security。
+在安装的“回滚”阶段发生异常。将忽略该异常并继续回滚。但是，在完成回滚后计算机可能无法完全还原到它的初始状态。
+正在安装程序集“F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = F:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。
+在 System.Diagnostics.EventLogInstaller 安装程序的“回滚”阶段发生异常。
+System.Security.SecurityException: 未找到源，但未能搜索某些或全部事件日志。  不可访问的日志: Security。
+在安装的“回滚”阶段发生异常。将忽略该异常并继续回滚。但是，在完成回滚后计算机可能无法完全还原到它的初始状态。
+正在安装程序集“H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。
+正在安装程序集“H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在安装服务 eco Sensors Device Monitor...
+正在日志 Application 中创建 EventLog 源 eco Sensors Device Monitor...
+正在回滚程序集“H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.InstallLog
+   assemblypath = H:\项目案例\sps备份\PDU智能电源管理\ECOSingle\PDUCustom\EcoSensorsMonitor.exe
+正在将事件日志还原到源 eco Sensors Device Monitor 的前一状态。

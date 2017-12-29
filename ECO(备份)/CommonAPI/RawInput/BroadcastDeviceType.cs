@@ -1,0 +1,14 @@
+using System;
+namespace RawInput
+{
+	public enum BroadcastDeviceType
+	{
+		DBT_DEVTYP_OEM,
+		DBT_DEVTYP_DEVNODE,
+		DBT_DEVTYP_VOLUME,
+		DBT_DEVTYP_PORT,
+		DBT_DEVTYP_NET,
+		DBT_DEVTYP_DEVICEINTERFACE,
+		DBT_DEVTYP_HANDLE
+	}
+}

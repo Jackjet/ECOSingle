@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{78920CE5-804F-44F6-99A2-1A885A74B830}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>DevAccessAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="DBAccessAPI" />
+    <Reference Include="SnmpSharpNet" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Reference Include="CommonAPI" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EcoDevice.AccessAPI\A.cs" />
+    <Compile Include="EcoDevice.AccessAPI\AbstractSnmpSession.cs" />
+    <Compile Include="EcoDevice.AccessAPI\AbstractSocketData.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcBankConfigMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcBankStatusMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcDeviceConfigMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcDeviceStatusMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcMibParser.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcPDUBaseMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcPhaseConfigMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcPhaseStatusMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcSensorConfigMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ApcSensorStatusMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\AttributeHelper.cs" />
+    <Compile Include="EcoDevice.AccessAPI\Authentication.cs" />
+    <Compile Include="EcoDevice.AccessAPI\AutoDetectLoader.cs" />
+    <Compile Include="EcoDevice.AccessAPI\AutoMibParser.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankAutoValue.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankControlMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankMapping.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankOutlets.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankStatus.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankStatusValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankThreshold.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankValueEntry.cs" />
+    <Compile Include="EcoDevice.AccessAPI\BankValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\Confirmation.cs" />
+    <Compile Include="EcoDevice.AccessAPI\Constant.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DashboardMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DefaultSnmpExecutor.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DefaultSnmpExecutors.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevAccessAPI.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevAccessCfg.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevCommonThreshold.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevDiscoverAPI.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DeviceAutoValue.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DeviceBaseMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DeviceEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevicePOPSettings.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DeviceProperties.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DeviceThreshold.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DeviceValueEntry.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DeviceValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevModelConfig.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevMonitorAPI.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevPortGroupAPI.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevRealConfig.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevScheduleAPI.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevServiceInfo.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevSnmpConfig.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DevThreshold.cs" />
+    <Compile Include="EcoDevice.AccessAPI\DictionaryUtil.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonGroupControlMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonGroupCurrentMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonGroupEntryMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonGroupPowerMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonGroupVoltageMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonInputCurrentMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonInputPowerMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonInputVoltageMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonMibParser.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonOutletControlMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonOutletCurrentMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonOutletEntryMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonOutletPowerMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonOutletVoltageMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonPDUBaseMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonPDUBaseMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonPDUCurrentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonPDUUnitMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonSensorContactMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonSensorHumidityMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\EatonSensorTemperatureMib_M2.cs" />
+    <Compile Include="EcoDevice.AccessAPI\Encode.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ExecutorCallBack.cs" />
+    <Compile Include="EcoDevice.AccessAPI\FW_stru.cs" />
+    <Compile Include="EcoDevice.AccessAPI\GroupOPThread.cs" />
+    <Compile Include="EcoDevice.AccessAPI\HandleThread.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LeafVarBinding.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LeafVBBuilder.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LineAutoValue.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LineEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LineMapping.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LineThreshold.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LineValueEntry.cs" />
+    <Compile Include="EcoDevice.AccessAPI\LineValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\Locker.cs" />
+    <Compile Include="EcoDevice.AccessAPI\MaxRepetition.cs" />
+    <Compile Include="EcoDevice.AccessAPI\MemoryShare.cs" />
+    <Compile Include="EcoDevice.AccessAPI\MessageCache.cs" />
+    <Compile Include="EcoDevice.AccessAPI\MessageCacheList.cs" />
+    <Compile Include="EcoDevice.AccessAPI\MibChainParser.cs" />
+    <Compile Include="EcoDevice.AccessAPI\MibManager.cs" />
+    <Compile Include="EcoDevice.AccessAPI\MibParser.cs" />
+    <Compile Include="EcoDevice.AccessAPI\Msg.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletAutoValue.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletControl.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletMapping.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletStatus.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletStatusConfig.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletStatusConfigMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletStatusValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletThreshold.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletValueEntry.cs" />
+    <Compile Include="EcoDevice.AccessAPI\OutletValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\PduControlMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\PDURangeLimit.cs" />
+    <Compile Include="EcoDevice.AccessAPI\PresentValue.cs" />
+    <Compile Include="EcoDevice.AccessAPI\Privacy.cs" />
+    <Compile Include="EcoDevice.AccessAPI\PropertiesMessage.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ReflactUtil.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SensorAutoValue.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SensorEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SensorMapping.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SensorThreshold.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SensorValueEntry.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SensorValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ServicePorts.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ShutDownMethod.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveBankEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveBankStatusValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveBankValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveBaseMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveDeviceEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveDeviceValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveOutletEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveOutletStatusConfigMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveOutletStatusValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveOutletValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlavePduControlMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveSensorEnvironmentMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SlaveSensorValueMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpConfig.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpConfiger.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpException.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpExecutor.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpExecutors.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpOperationType.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpSession.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpSessionFactory.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpTrapHandler.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpV1Config.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpV1Session.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpV2Config.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpV2Session.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpV3Config.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpV3Session.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SnmpVersionType.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SocketData.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SocketDataEventArgs.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SocketMessager.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SocketReceiver.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SocketSender.cs" />
+    <Compile Include="EcoDevice.AccessAPI\stru_CommRange.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SynDictionaryWrap.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SystemLargeThreadPool.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SystemSmallThreadPool.cs" />
+    <Compile Include="EcoDevice.AccessAPI\SystemThreadPool.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TableVarBinding.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ThreadCreator.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ThreadPoolHandlerTemplate.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ThreadUtil.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ThresholdFlg.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ThresholdMessage.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TimerElapsed.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapDesc.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapEnabled.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapMessage.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapReceiverConfiguration.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapReceiverMib.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapV1Message.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapV2Message.cs" />
+    <Compile Include="EcoDevice.AccessAPI\TrapV3Message.cs" />
+    <Compile Include="EcoDevice.AccessAPI\UdpSocketReceiver.cs" />
+    <Compile Include="EcoDevice.AccessAPI\UdpSocketSender.cs" />
+    <Compile Include="EcoDevice.AccessAPI\UnSupportException.cs" />
+    <Compile Include="EcoDevice.AccessAPI\UsmConfig.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ValueMessage.cs" />
+    <Compile Include="EcoDevice.AccessAPI\ValueParser.cs" />
+    <Compile Include="EcoDevice.AccessAPI\VarBinding.cs" />
+    <Compile Include="EcoDevice.AccessAPI\XMLParserAPI.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8DF5C5F3-A457-43AB-81CC-DB21639C8812}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>CommonAPI</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonAPI.CultureTransfer\CultureTransfer.cs" />
+    <Compile Include="CommonAPI.CultureTransfer\ecoConvert.cs" />
+    <Compile Include="CommonAPI.Email\DefaultMailSender.cs" />
+    <Compile Include="CommonAPI.Email\ErrorCode.cs" />
+    <Compile Include="CommonAPI.Email\MailAPI.cs" />
+    <Compile Include="CommonAPI.Email\MailConfig.cs" />
+    <Compile Include="CommonAPI.Email\MailMsg.cs" />
+    <Compile Include="CommonAPI.Email\MailSender.cs" />
+    <Compile Include="CommonAPI.Global\ValuePairs.cs" />
+    <Compile Include="CommonAPI.InterProcess\InterProcessBase.cs" />
+    <Compile Include="CommonAPI.InterProcess\InterProcessEvent.cs" />
+    <Compile Include="CommonAPI.InterProcess\InterProcessShared.cs" />
+    <Compile Include="CommonAPI.InterProcess\Win32.cs" />
+    <Compile Include="CommonAPI.network\NetworkShareAccesser.cs" />
+    <Compile Include="CommonAPI.ThreadWrapper\HandleThread.cs" />
+    <Compile Include="CommonAPI.ThreadWrapper\SystemLargeThreadPool.cs" />
+    <Compile Include="CommonAPI.ThreadWrapper\SystemSmallThreadPool.cs" />
+    <Compile Include="CommonAPI.ThreadWrapper\SystemThreadPool.cs" />
+    <Compile Include="CommonAPI.ThreadWrapper\ThreadCreator.cs" />
+    <Compile Include="CommonAPI.ThreadWrapper\ThreadPoolHandlerTemplate.cs" />
+    <Compile Include="CommonAPI.ThreadWrapper\ThreadUtil.cs" />
+    <Compile Include="CommonAPI.Timers\TickTimer.cs" />
+    <Compile Include="CommonAPI.Tools\DiskInfo.cs" />
+    <Compile Include="CommonAPI.Tools\MyConvert.cs" />
+    <Compile Include="CommonAPI.Tools\MyListenPortChecker.cs" />
+    <Compile Include="CommonAPI.Tools\SNDecoder.cs" />
+    <Compile Include="CommonAPI.WMI\Query.cs" />
+    <Compile Include="CommonAPI\CommonAPI.cs" />
+    <Compile Include="CommonAPI\DebugCenter.cs" />
+    <Compile Include="CommonAPI\DeepCloneHelper.cs" />
+    <Compile Include="CommonAPI\SyslogMaintain.cs" />
+    <Compile Include="CommonAPI\XmlReader.cs" />
+    <Compile Include="CustomXmlSerialization\CustomXmlDeserializer.cs" />
+    <Compile Include="CustomXmlSerialization\CustomXmlSerializationOptionsAttribute.cs" />
+    <Compile Include="CustomXmlSerialization\CustomXmlSerializer.cs" />
+    <Compile Include="CustomXmlSerialization\CustomXmlSerializerBase.cs" />
+    <Compile Include="CustomXmlSerialization\TestMeTypeConverter.cs" />
+    <Compile Include="CustomXmlSerialization\XmlIgnoreBaseTypeAttribute.cs" />
+    <Compile Include="CustomXmlSerialization\XmlSerializeAsCustomTypeAttribute.cs" />
+    <Compile Include="RawInput\BroadcastDeviceInterface.cs" />
+    <Compile Include="RawInput\BroadcastDeviceType.cs" />
+    <Compile Include="RawInput\DataCommand.cs" />
+    <Compile Include="RawInput\DeviceInfo.cs" />
+    <Compile Include="RawInput\DeviceInfoHID.cs" />
+    <Compile Include="RawInput\DeviceInfoKeyboard.cs" />
+    <Compile Include="RawInput\DeviceInfoMouse.cs" />
+    <Compile Include="RawInput\DeviceNotification.cs" />
+    <Compile Include="RawInput\DeviceType.cs" />
+    <Compile Include="RawInput\HidUsage.cs" />
+    <Compile Include="RawInput\HidUsagePage.cs" />
+    <Compile Include="RawInput\InputData.cs" />
+    <Compile Include="RawInput\InputEventArg.cs" />
+    <Compile Include="RawInput\KeyMapper.cs" />
+    <Compile Include="RawInput\MouseMessage.cs" />
+    <Compile Include="RawInput\RawData.cs" />
+    <Compile Include="RawInput\Rawhid.cs" />
+    <Compile Include="RawInput\RawInput.cs" />
+    <Compile Include="RawInput\RawInputDevice.cs" />
+    <Compile Include="RawInput\RawInputDeviceFlags.cs" />
+    <Compile Include="RawInput\RawInputDeviceInfo.cs" />
+    <Compile Include="RawInput\Rawinputdevicelist.cs" />
+    <Compile Include="RawInput\RawInputDriver.cs" />
+    <Compile Include="RawInput\RawInputEvent.cs" />
+    <Compile Include="RawInput\Rawinputheader.cs" />
+    <Compile Include="RawInput\Rawkeyboard.cs" />
+    <Compile Include="RawInput\Rawmouse.cs" />
+    <Compile Include="RawInput\RegistryAccess.cs" />
+    <Compile Include="RawInput\VirtualKeys.cs" />
+    <Compile Include="RawInput\Win32.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

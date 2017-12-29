@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{594F142A-D6C6-4A61-9AFF-83C42F067251}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Dispatcher</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="CommonAPI" />
+    <Reference Include="DBAccessAPI" />
+    <Reference Include="System.Data" />
+    <Reference Include="DevAccessAPI" />
+    <Reference Include="System.Xml" />
+    <Reference Include="EventLogAPI" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dispatcher.Properties\Resources.cs" />
+    <Compile Include="Dispatcher\AppData.cs" />
+    <Compile Include="Dispatcher\ClientAPI.cs" />
+    <Compile Include="Dispatcher\DispatchAPI.cs" />
+    <Compile Include="Dispatcher\ServicesAPI.cs" />
+    <Compile Include="EcoMessenger\BillingHandler.cs" />
+    <Compile Include="EcoMessenger\BillingMessage.cs" />
+    <Compile Include="EcoMessenger\EcoHandler.cs" />
+    <Compile Include="EcoMessenger\ecoMessage.cs" />
+    <Compile Include="EcoMessenger\MessageBase.cs" />
+    <Compile Include="ecoProtocols\BillingContext.cs" />
+    <Compile Include="ecoProtocols\BufferState.cs" />
+    <Compile Include="ecoProtocols\ClientConfig.cs" />
+    <Compile Include="ecoProtocols\Common.cs" />
+    <Compile Include="ecoProtocols\ConnectContext.cs" />
+    <Compile Include="ecoProtocols\DispatchAttribute.cs" />
+    <Compile Include="ecoProtocols\DispatchCallback.cs" />
+    <Compile Include="ecoProtocols\EcoContext.cs" />
+    <Compile Include="ecoProtocols\ecoServerProtocol.cs" />
+    <Compile Include="ecoProtocols\IConnectInterface.cs" />
+    <Compile Include="ecoProtocols\LoginResult.cs" />
+    <Compile Include="ecoProtocols\MeasureData.cs" />
+    <Compile Include="ecoProtocols\PacketReceiver.cs" />
+    <Compile Include="ecoProtocols\ServerConfig.cs" />
+    <Compile Include="ecoProtocols\ServerEndPoint.cs" />
+    <Compile Include="ecoProtocols\ServerEventHandlerByRef.cs" />
+    <Compile Include="ecoProtocols\ServerEventHandlerByVal.cs" />
+    <Compile Include="ecoProtocols\SpeedMeter.cs" />
+    <Compile Include="InSnergyAPI.ApplicationLayer\ApplicationHandler.cs" />
+    <Compile Include="InSnergyAPI.ApplicationLayer\Channel.cs" />
+    <Compile Include="InSnergyAPI.ApplicationLayer\Device.cs" />
+    <Compile Include="InSnergyAPI.ApplicationLayer\Gateway.cs" />
+    <Compile Include="InSnergyAPI.ApplicationLayer\GatewayStatus.cs" />
+    <Compile Include="InSnergyAPI.ApplicationLayer\Param.cs" />
+    <Compile Include="InSnergyAPI.ConnectionLayer\BufferManager.cs" />
+    <Compile Include="InSnergyAPI.ConnectionLayer\ConnectionContext.cs" />
+    <Compile Include="InSnergyAPI.ConnectionLayer\ConnectionManager.cs" />
+    <Compile Include="InSnergyAPI.ConnectionLayer\ConnectionStatus.cs" />
+    <Compile Include="InSnergyAPI.ConnectionLayer\SocketAsyncEventArgsPool.cs" />
+    <Compile Include="InSnergyAPI.ConnectionLayer\SocketListener.cs" />
+    <Compile Include="InSnergyAPI.DataLayer\SharedData.cs" />
+    <Compile Include="InSnergyAPI.DataLayer\Win32.cs" />
+    <Compile Include="InSnergyAPI\IBranch.cs" />
+    <Compile Include="InSnergyAPI\IGateway.cs" />
+    <Compile Include="InSnergyAPI\IMeter.cs" />
+    <Compile Include="InSnergyAPI\IMeterPower.cs" />
+    <Compile Include="InSnergyAPI\InSnergyService.cs" />
+    <Compile Include="InSnergyAPI\IParam.cs" />
+    <Compile Include="Packing\Compression.cs" />
+    <Compile Include="Packing\DataSetManager.cs" />
+    <Compile Include="Packing\MemoryTributary.cs" />
+    <Compile Include="Packing\MyMemoryStream.cs" />
+    <Compile Include="Packing\Serialization.cs" />
+    <Compile Include="Packing\TrunkToTable.cs" />
+    <Compile Include="SessionManager\Session.cs" />
+    <Compile Include="SessionManager\SessionAPI.cs" />
+    <Compile Include="SessionManager\UpdateTracker.cs" />
+    <Compile Include="SessionManager\UserAccessRights.cs" />
+    <Compile Include="SocketClient\BaseClient.cs" />
+    <Compile Include="SocketClient\BaseTCPClient.cs" />
+    <Compile Include="SocketClient\ClientSSL.cs" />
+    <Compile Include="SocketServer\BaseServer.cs" />
+    <Compile Include="SocketServer\BaseTCPServer.cs" />
+    <Compile Include="SocketServer\ServerSSL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dispatcher.Properties\Resources.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
